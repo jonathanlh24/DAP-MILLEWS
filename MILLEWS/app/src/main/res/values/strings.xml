@@ -2,10 +2,10 @@
     <string name="app_name">MILLEWS</string>
     <string name="millews">MILLEWS</string>
     <string name="header">A Millenial Plaform for being up to date</string>
-    <string name="email">Email</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="gender">Gender</string>
+    <string name="tv_emailSignIn">Email</string>
+    <string name="tv_usernameSignIn">Username</string>
+    <string name="tv_passwordSignIn">Password</string>
+    <string name="tv_genderSignIn">Gender</string>
     <string name="login">Login</string>
     <string name="rad_male">Male</string>
     <string name="rad_female">Female</string>
@@ -18,4 +18,15 @@
     <string name="tv_loginalt">OR LOGIN WITH</string>
     <string name="facebookicon">FacebookIcon</string>
     <string name="googleicon">GoogleIcon</string>
+    <string name="editName">EDIT NAME</string>
+    <string name="tv_nameInEditName">Name</string>
+    <string name="suffixName">You can enter either your full name, nickname or suffix name</string>
+    <string name="btn_submit">Submit</string>
+    <string name="editEmail">EDIT EMAIL</string>
+    <string name="tv_emailInEditEmail">Your Email</string>
+    <string name="myProfile">My Profile</string>
+    <string name="tv_nameprofile">Jonathan Leonardi</string>
+    <string name="btn_editProfile">Edit Profile</string>
+    <string name="editProfile">My Profile</string>
+    <string name="tv_taptochange">Tap To Change</string>
 </resources>
