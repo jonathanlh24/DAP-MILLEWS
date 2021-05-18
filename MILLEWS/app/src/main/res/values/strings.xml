@@ -29,4 +29,6 @@
     <string name="btn_editProfile">Edit Profile</string>
     <string name="editProfile">My Profile</string>
     <string name="tv_taptochange">Tap To Change</string>
+    <string name="apaygdicari">Apa yang ingin kamu cari ?</string>
+    <string name="rekomendasiartikel">Rekomendasi Artikel</string>
 </resources>
