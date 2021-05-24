@@ -40,4 +40,28 @@
         <br> Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik.</br>
         <br></br>
         <br>"Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash.</br>"</string>
+    <string name="home">Home</string>
+    <string name="international">International</string>
+    <string name="sport">Sport</string>
+    <string name="travel">Travel</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="main_profile">Welcome, Guest</string>
+    <string name="main_content_1">Rossi Yakin Bisa Bersaing di MotoGP Qatar</string>
+    <string name="main_category_1">Olahraga</string>
+    <string name="travel_category_1">Travel</string>
+    <string name="main_time_1">| 19 Menit Lalu</string>
+    <string name="bookmark_content_1">Bocoran Spesifikasi iPhone 13 Diduga Meluncur Tahun Ini</string>
+    <string name="bookmark_content_2">Seohyun Siap Bintangi Film Romantis Bareng Lee Jun-young</string>
+    <string name="bookmark_content_3">Detik-detik Kiper Sevilla Bobol Gawang Valladolid</string>
+    <string name="bookmark_content_4">Niatnya berlibur, Enzy Storia malah menghubungi nasi padang.</string>
+    <string name="bookmark_time_1">Rabu, 24/03/2021 08:05 WIB</string>
+    <string name="bookmark_time_2">Selasa, 23/03/2021 09:15 WIB</string>
+    <string name="bookmark_time_3">Minggu, 21/03/2021 05:54 WIB</string>
+    <string name="bookmark_time_4">Jumat, 18/12/2020 13:44 WIB</string>
+    <string name="utama_content_1">Mi Instan ‘Haute Couture’ ala Maisaon Margiela x Tommy Cash</string>
+    <string name="utama_content_2">Chess.com: Elo Rating Dewa Kipas Merosot Saat Lawan Irene</string>
+    <string name="category_content_1">10 Destinasi Wisata di Utrecht, Belanda Beragam!</string>
+    <string name="berita_utama">BERITA UTAMA</string>
+    <string name="berita_travel">BERITA TRAVEL LAINNYA</string>
+    <string name="travel_lain_1">8 Wisata Pantai Tersembunyi di Malang</string>
 </resources>
