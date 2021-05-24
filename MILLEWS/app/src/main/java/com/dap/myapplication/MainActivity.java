@@ -24,5 +24,20 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     });
+
+    binding.ivMainContent.setOnClickListener(view -> {
+        Intent intent = new Intent(this,ArticleActivity.class);
+        startActivity(intent);
+        finish();
+    });
     }
-}   
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Bundle bundle =  getIntent().getExtras();
+        if(bundle!=null && !bundle.isEmpty()){
+            binding.tvProfile.setText("Welcome, "+bundle.getString("key"));
+        }
+    }
+}
