@@ -36,10 +36,11 @@
     <string name="judulArticle">Rossi Yakin Bisa Bersaing di MotoGP Qatar</string>
     <string name="date">Rabu, 24/03/2021 12:08 WIB</string>
     <string name="keterangan">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
-    <string name="isiArticleRossi">"Jakarta || Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.<br></br>
-        <br> Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik.</br>
-        <br></br>
-        <br>"Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash.</br>"</string>
+    <string name="isiArticleRossi">
+        \t Jakarta || Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n
+        \t Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik. \n
+        \t "Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash."
+    </string>
     <string name="home">Home</string>
     <string name="international">International</string>
     <string name="sport">Sport</string>

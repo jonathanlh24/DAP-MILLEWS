@@ -10,6 +10,7 @@ import com.dap.myapplication.databinding.SignUpPageBinding;
 public class SignUpActivity extends AppCompatActivity {
 
     private SignUpPageBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +18,7 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.btnSignIn.setOnClickListener(view -> {
-            Intent intent = new Intent(this,MainActivity.class);
+            Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
             finish();
         });

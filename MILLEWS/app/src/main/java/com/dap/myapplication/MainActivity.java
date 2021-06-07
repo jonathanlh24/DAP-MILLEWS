@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import com.dap.myapplication.databinding.MainPageLogoffBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
 
     private MainPageLogoffBinding binding;
 
@@ -19,17 +19,7 @@ public class MainActivity extends AppCompatActivity {
         binding =  MainPageLogoffBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-    binding.btnLogin.setOnClickListener(view -> {
-        Intent intent = new Intent(this,LoginActivity.class);
-        startActivity(intent);
-        finish();
-    });
 
-    binding.ivMainContent.setOnClickListener(view -> {
-        Intent intent = new Intent(this,ArticleActivity.class);
-        startActivity(intent);
-        finish();
-    });
     }
 
     @Override
