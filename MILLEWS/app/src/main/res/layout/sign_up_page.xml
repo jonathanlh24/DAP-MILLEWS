@@ -59,8 +59,9 @@
             android:layout_height="30dp"
             android:background="@drawable/custom_input"
             android:ems="10"
+            android:hint="Name"
             android:inputType="textPersonName"
-            android:text=" Name"
+            android:paddingStart="10dp"
             android:textSize="14sp" />
 
     </LinearLayout>
@@ -89,8 +90,9 @@
             android:layout_height="30dp"
             android:background="@drawable/custom_input"
             android:ems="10"
+            android:hint="Email"
             android:inputType="textPersonName"
-            android:text=" Email"
+            android:paddingStart="10dp"
             android:textSize="14sp" />
     </LinearLayout>
 
@@ -118,8 +120,9 @@
             android:layout_height="30dp"
             android:background="@drawable/custom_input"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPersonName"
-            android:text=" Password"
+            android:paddingStart="10dp"
             android:textSize="14sp" />
 
     </LinearLayout>
@@ -173,19 +176,22 @@
         android:text="@string/agree"
         android:textColor="#838383"
         android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sign_in"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LL_gender" />
+        app:layout_constraintTop_toBottomOf="@+id/LL_gender"
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="460dp"
         android:text="@string/btn_sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
 
     <TextView
         android:id="@+id/tv_choice"
@@ -194,9 +200,11 @@
         android:layout_marginTop="8dp"
         android:text="OR SIGN UP WITH"
         android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_sign_in" />
+        app:layout_constraintTop_toBottomOf="@id/btn_sign_in"
+        app:layout_constraintVertical_bias="0.059" />
 
     <ImageView
         android:id="@+id/logo_fb"

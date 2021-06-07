@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     private Fragment fragment;
     private FragmentManager fragmentManager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class HomeActivity extends AppCompatActivity {
 
         fragmentManager = getSupportFragmentManager();
 
-        fragmentManager.beginTransaction().replace(binding.container.getId(), MainFragment.newInstance()).commit();
+        fragmentManager.beginTransaction().add(binding.container.getId(), MainFragment.newInstance()).commit();
 
         binding.bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -34,16 +35,19 @@ public class HomeActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.btn_home:
                         fragment = MainFragment.newInstance();
+                        Bundle bundle = new Bundle();
+                        bundle.putString("jonathan", "key");
+                        fragment.setArguments(bundle);
                         break;
-//                    case R.id.btn_search:
-//                        fragment = SavedFragment.newInstance();
-//                        break;
-//                    case R.id.btn_bookmark:
-//                        fragment = ProfileFragment.newInstance();
-//                        break;
-//                    case R.id.btn_profile:
-//                        fragment = HomeFragment.newInstance();
-//                        break;
+                    case R.id.btn_search:
+                        fragment = SearchFragment.newInstance();
+                        break;
+                    case R.id.btn_bookmark:
+                        fragment = BookmarkFragment.newInstance();
+                        break;
+                    case R.id.btn_profile:
+                        fragment = ProfileFragment.newInstance();
+                        break;
                     default:
                         fragment = MainFragment.newInstance();
                 }
@@ -53,4 +57,5 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
+
 }

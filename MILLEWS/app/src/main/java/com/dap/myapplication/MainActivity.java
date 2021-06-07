@@ -22,12 +22,5 @@ public class  MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Bundle bundle =  getIntent().getExtras();
-        if(bundle!=null && !bundle.isEmpty()){
-            binding.tvProfile.setText("Welcome, "+bundle.getString("key"));
-        }
-    }
+
 }

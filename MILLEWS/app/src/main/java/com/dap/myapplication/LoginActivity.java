@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
             bundle.putString("key", "jonathan");
 
             Intent intent = new Intent(this, HomeActivity.class);
-//            intent.putExtras(bundle);
+            intent.putExtras(bundle);
             startActivity(intent);
         });
         binding.tvSignup.setOnClickListener(view -> {

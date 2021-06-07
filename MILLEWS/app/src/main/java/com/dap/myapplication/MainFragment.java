@@ -35,6 +35,14 @@ public class MainFragment extends Fragment {
 
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(getArguments()!=null){
+            binding.tvProfile.setText("Welcome, "+getArguments().getString("key"));
+        }
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
