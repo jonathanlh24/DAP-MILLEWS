@@ -67,6 +67,32 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
+        binding.utamaMain1.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvUtama1.getText().toString());
+            bundle.putString("header_article",binding.ivUtama1.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleMie));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.utamaMain2.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvUtama2.getText().toString());
+            bundle.putString("header_article",binding.ivUtama2.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleDewa));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
         return binding.getRoot();
     }
 }

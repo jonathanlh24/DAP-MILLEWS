@@ -53,14 +53,6 @@
             tools:srcCompat="@drawable/rossi" />
 
         <TextView
-            android:id="@+id/txt_keterangan"
-            android:layout_width="295dp"
-            android:layout_height="wrap_content"
-            android:text="@string/keterangan"
-            android:textSize="11sp"
-            tools:layout_marginTop="5dp" />
-
-        <TextView
             android:id="@+id/txt_isi"
             android:layout_width="295dp"
             android:layout_height="wrap_content"
