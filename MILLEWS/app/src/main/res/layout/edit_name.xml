@@ -47,9 +47,10 @@
             android:id="@+id/tv_nameInEditName"
             android:layout_width="285dp"
             android:layout_height="30dp"
+            android:gravity="bottom"
             android:text="@string/tv_nameInEditName"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <EditText
@@ -58,9 +59,10 @@
             android:layout_height="30dp"
             android:background="@drawable/custom_input"
             android:ems="10"
+            android:gravity="center_vertical"
             android:inputType="textPersonName"
             android:text=" Jonathan Leonardi"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -70,14 +72,14 @@
         android:layout_height="30dp"
         android:layout_marginTop="30dp"
         android:text="@string/suffixName"
-        android:textSize="12sp"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LL_profile" />
 
     <Button
         android:id="@+id/btn_EditProfile"
-        android:layout_width="285dp"
+        android:layout_width="163dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:text="@string/btn_submit"
@@ -86,6 +88,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_suffixName"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.227" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
