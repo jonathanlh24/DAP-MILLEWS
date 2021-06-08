@@ -16,202 +16,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_bookmark">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="14dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <ImageView
-                android:id="@+id/iv_bookmark_content_2"
-                android:layout_width="132dp"
-                android:layout_height="85dp"
-                app:srcCompat="@drawable/bookmark2" />
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tv_recommend_2"
-                    android:layout_width="164dp"
-                    android:layout_height="58dp"
-                    android:text="@string/bookmark_content_2"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.609"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_2"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_1"
-                    app:layout_constraintVertical_bias="0.046" />
-
-                <TextView
-                    android:id="@+id/tv_bookmark_time_2"
-                    android:layout_width="208dp"
-                    android:layout_height="21dp"
-                    android:text="@string/bookmark_time_2"
-                    android:textSize="12sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.52"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_2"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_recommend_2"
-                    app:layout_constraintVertical_bias="0.01" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="29dp"
-            android:orientation="horizontal"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="14dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <ImageView
-                android:id="@+id/iv_bookmark_content_3"
-                android:layout_width="132dp"
-                android:layout_height="85dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.082"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_bookmark_content_2"
-                app:layout_constraintVertical_bias="0.07"
-                app:srcCompat="@drawable/bookmark3" />
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tv_bookmark_content_3"
-                    android:layout_width="168dp"
-                    android:layout_height="60dp"
-                    android:text="@string/bookmark_content_3"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.609"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_3"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_2"
-                    app:layout_constraintVertical_bias="0.065" />
-
-                <TextView
-                    android:id="@+id/tv_bookmark_time_3"
-                    android:layout_width="208dp"
-                    android:layout_height="21dp"
-                    android:text="@string/bookmark_time_3"
-                    android:textSize="12sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.52"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_2"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_3"
-                    app:layout_constraintVertical_bias="0.014" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="29dp"
-            android:orientation="horizontal"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="14dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <ImageView
-                android:id="@+id/iv_bookmark_content_4"
-                android:layout_width="132dp"
-                android:layout_height="85dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.082"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_bookmark_content_3"
-                app:layout_constraintVertical_bias="0.12"
-                app:srcCompat="@drawable/bookmark4" />
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tv_bookmark_content_4"
-                    android:layout_width="179dp"
-                    android:layout_height="60dp"
-                    android:text="@string/bookmark_content_4"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_3"
-                    app:layout_constraintVertical_bias="0.106" />
-
-                <TextView
-                    android:id="@+id/tv_bookmark_time_4"
-                    android:layout_width="208dp"
-                    android:layout_height="21dp"
-                    android:text="@string/bookmark_time_4"
-                    android:textSize="12sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.52"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_2"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_4"
-                    app:layout_constraintVertical_bias="0.017" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="29dp"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
+            android:id="@+id/bookmark_article_1"
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:orientation="horizontal">
@@ -239,6 +44,205 @@
 
                 <TextView
                     android:id="@+id/tv_bookmark_content_1"
+                    android:layout_width="164dp"
+                    android:layout_height="58dp"
+                    android:text="@string/bookmark_content_2"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.609"
+                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_4"
+                    app:layout_constraintVertical_bias="0.046" />
+
+                <TextView
+                    android:id="@+id/tv_bookmark_time_1"
+                    android:layout_width="208dp"
+                    android:layout_height="21dp"
+                    android:text="@string/bookmark_time_2"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.52"
+                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_1"
+                    app:layout_constraintVertical_bias="0.01" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bookmark_article_2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_bookmark_content_2"
+                android:layout_width="132dp"
+                android:layout_height="85dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.082"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_bookmark_content_1"
+                app:layout_constraintVertical_bias="0.07"
+                app:srcCompat="@drawable/bookmark2" />
+
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_bookmark_content_2"
+                    android:layout_width="168dp"
+                    android:layout_height="60dp"
+                    android:text="@string/bookmark_content_3"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.609"
+                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_2"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_1"
+                    app:layout_constraintVertical_bias="0.065" />
+
+                <TextView
+                    android:id="@+id/tv_bookmark_time_2"
+                    android:layout_width="208dp"
+                    android:layout_height="21dp"
+                    android:text="@string/bookmark_time_3"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.52"
+                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_2"
+                    app:layout_constraintVertical_bias="0.014" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bookmark_article_3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_bookmark_content_3"
+                android:layout_width="132dp"
+                android:layout_height="85dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.082"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_bookmark_content_2"
+                app:layout_constraintVertical_bias="0.12"
+                app:srcCompat="@drawable/bookmark3" />
+
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_bookmark_content_3"
+                    android:layout_width="179dp"
+                    android:layout_height="60dp"
+                    android:text="@string/bookmark_content_4"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_2"
+                    app:layout_constraintVertical_bias="0.106" />
+
+                <TextView
+                    android:id="@+id/tv_bookmark_time_3"
+                    android:layout_width="208dp"
+                    android:layout_height="21dp"
+                    android:text="@string/bookmark_time_4"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.52"
+                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_3"
+                    app:layout_constraintVertical_bias="0.017" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bookmark_article_4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_bookmark_content_4"
+                android:layout_width="132dp"
+                android:layout_height="85dp"
+                app:srcCompat="@drawable/bookmark4" />
+
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_bookmark_content_4"
                     android:layout_width="177dp"
                     android:layout_height="60dp"
                     android:text="@string/bookmark_content_1"
@@ -247,7 +251,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/tv_bookmark_time_1"
+                    android:id="@+id/tv_bookmark_time_4"
                     android:layout_width="208dp"
                     android:layout_height="21dp"
                     android:text="@string/bookmark_time_1"
@@ -264,19 +268,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="26dp"
-        android:layout_height="32dp"
-        android:contentDescription="back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048"
-        app:srcCompat="@drawable/back" />
 
     <TextView
         android:id="@+id/tv_bookmark"

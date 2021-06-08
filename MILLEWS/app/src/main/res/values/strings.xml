@@ -41,6 +41,28 @@
         \t Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik. \n
         \t "Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash."
     </string>
+    <string name="isiArticleMie">
+        \t Jakarta, CNN Indonesia -- Tommy Cash dan rumah mode Maison Margiela meluncurkan kolaborasi terbaru mereka. Namun, bukan Tommy Cash namanya kalau kolaborasinya biasa-biasa saja. \n
+        \t Cash memang terkenal dengan produk kolaborasi yang unik. Di awal bulan ini, rapper dan artis Estonia ini memulai kolaborasinya dengan Adidas untuk membuat sepatu kets sepanjang satu meter. \n
+        \t Sebelumnya, persahabatannya dengan desainer Rick Owens juga menghasilkan serangkaian proyek lagu Mona Lisa pada 2018 hingga pameran The Pure and The Damned pada 2019.
+    </string>
+    <string name="isiArticleDewa">
+        \t Jakarta || Chess.com, situs yang menjadi awal sensasi Dewa Kipas ikut memberikan komentar terkait performa Dewa Kipas saat menghadapi WGM Irene Kharisma Sukandar. \n
+        \t Menurut Chess.com, ada perbedaan besar dalam elo rating yang terlihat dari penampilan Dewa Kipas. \n
+        \t "Chess.com memperkirakan penampilannya [Dewa Kipas] dalam tiga babak [melawan Irene] adalah memiliki elo 1.127. Penampilan online rating miliknya melebihi elo 3.000, penampilan tertinggi dalam sistem Fair Play Chess.com untuk menghitung permainan antar manusia," tulis Chess.com.
+    </string>
+    <string name="isiBookmark1">
+
+    </string>
+    <string name="isiBookmark2">
+
+    </string>
+    <string name="isiBookmark3">
+        
+    </string>
+    <string name="isiBookmark4">
+
+    </string>
     <string name="home">Home</string>
     <string name="international">International</string>
     <string name="sport">Sport</string>
@@ -51,6 +73,7 @@
     <string name="main_category_1">Olahraga</string>
     <string name="travel_category_1">Travel</string>
     <string name="main_time_1">| 19 Menit Lalu</string>
+    <string name="main_time_alt">Rabu, 24/03/2021 12:08 WIB</string>
     <string name="bookmark_content_1">Bocoran Spesifikasi iPhone 13 Diduga Meluncur Tahun Ini</string>
     <string name="bookmark_content_2">Seohyun Siap Bintangi Film Romantis Bareng Lee Jun-young</string>
     <string name="bookmark_content_3">Detik-detik Kiper Sevilla Bobol Gawang Valladolid</string>

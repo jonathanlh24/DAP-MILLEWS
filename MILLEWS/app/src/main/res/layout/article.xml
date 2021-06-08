@@ -4,21 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ArticleActivity">
+    >
 
-
-    <ImageView
-        android:id="@+id/btn_back"
-        android:layout_width="51dp"
-        android:layout_height="44dp"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055"
-        app:srcCompat="@drawable/back" />
 
     <LinearLayout
         android:id="@+id/LL_article"
@@ -58,7 +45,7 @@
             android:text="@string/date" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/header_article"
             android:layout_width="285dp"
             android:layout_height="192dp"
             tools:srcCompat="@drawable/rossi" />
