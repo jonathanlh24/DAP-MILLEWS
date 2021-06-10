@@ -11,4 +11,6 @@
     <color name="blanc">#7777776D</color>
     <color name="red">#FF1100</color>
     <color name="warnabottom">#CDC8C8</color>
+    <color name="colorForSearch">#F2F2F2</color>
+    <color name="colorBorderSearch">#C3B7B7</color>
 </resources>

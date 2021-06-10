@@ -7,9 +7,9 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_cari"
-        android:layout_width="331dp"
-        android:layout_height="30dp"
+        android:id="@+id/tv_cariOff"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/apaygdicari"
         android:textColor="#000000"
@@ -19,146 +19,93 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="338dp"
-        android:layout_height="32dp"
-        android:background="@drawable/custom_input"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_search"
+        android:drawableEnd="@drawable/search_icon"
         android:ems="10"
         android:hint="Search"
         android:inputType="textPersonName"
-        android:paddingStart="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10sp"
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_cari" />
+        app:layout_constraintTop_toBottomOf="@id/tv_cariOff" />
 
     <TextView
-        android:id="@+id/tv_rekomendasi"
-        android:layout_width="285dp"
+        android:id="@+id/tv_rekomendasiOff"
+        android:layout_width="325dp"
         android:layout_height="30dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="20dp"
         android:text="@string/rekomendasiartikel"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName7" />
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_rekomendasi">
+        app:layout_constraintTop_toBottomOf="@+id/tv_rekomendasiOff">
 
         <LinearLayout
             android:id="@+id/search_article_1"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
             android:clickable="true"
             android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
 
             <ImageView
                 android:id="@+id/iv_recommend_1"
-                android:layout_width="132dp"
-                android:layout_height="85dp"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
                 android:clickable="true"
                 app:srcCompat="@drawable/mie" />
 
-            <LinearLayout
-                android:layout_width="29dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tv_recommend_1"
-                    android:layout_width="164dp"
-                    android:layout_height="58dp"
-                    android:text="@string/utama_content_1"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.609"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_0"
-                    app:layout_constraintVertical_bias="0.046" />
-
-            </LinearLayout>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="@string/utama_content_1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent" />
 
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="28dp"
-            android:orientation="horizontal"></LinearLayout>
 
         <LinearLayout
             android:id="@+id/search_article_2"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
             android:clickable="true"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="29dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-            </LinearLayout>
+            android:orientation="horizontal"
+            android:paddingTop="17dp">
 
             <ImageView
                 android:id="@+id/iv_recommend_2"
-                android:layout_width="132dp"
-                android:layout_height="85dp"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
                 app:srcCompat="@drawable/dewa" />
 
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/tv_recommend_2"
-                    android:layout_width="164dp"
-                    android:layout_height="58dp"
-                    android:text="@string/utama_content_2"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.609"
-                    app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_0"
-                    app:layout_constraintVertical_bias="0.046" />
-
-            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_recommend_2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="@string/utama_content_2"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="28dp"></LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,34 +6,114 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_cari"
-        android:layout_width="285dp"
+        android:id="@+id/tv_cariOff"
+        android:layout_width="325dp"
         android:layout_height="30dp"
         android:layout_marginTop="50dp"
+        android:gravity="bottom"
         android:text="@string/apaygdicari"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="285dp"
-        android:layout_height="30dp"
-        android:background="@drawable/custom_input"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_search"
+        android:drawableEnd="@drawable/search_icon"
         android:ems="10"
         android:inputType="textPersonName"
+        android:paddingStart="20sp"
+        android:paddingEnd="10sp"
         android:text="Lionel Messi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_cari" />
+        app:layout_constraintTop_toBottomOf="@id/tv_cariOff" />
 
-    <TextView
-        android:id="@+id/tv_rekomendasi"
-        android:layout_width="285dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="50dp"
-        android:text="@string/rekomendasiartikel"
+    <LinearLayout
+        android:id="@+id/search_fillOff_messi_1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName7" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7">
+
+        <ImageView
+            android:id="@+id/iv_recommendOff_1"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/messi_1" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text="@string/utama_content_messi_1"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_fillOff_messi_2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_fillOff_messi_1">
+
+        <ImageView
+            android:id="@+id/iv_recommendOff_2"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/messi_2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text="@string/utama_content_messi_2"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_fillOff_messi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_fillOff_messi_2">
+
+        <ImageView
+            android:id="@+id/iv_recommendOff_3"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/messi_3" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text="@string/utama_content_messi_3"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

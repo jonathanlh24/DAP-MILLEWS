@@ -2,38 +2,112 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_cari"
-        android:layout_width="285dp"
-        android:layout_height="30dp"
+        android:id="@+id/tv_cariOn"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:gravity="bottom"
         android:text="@string/apaygdicari"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="285dp"
-        android:layout_height="30dp"
-        android:background="@drawable/custom_input"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_search"
+        android:drawableEnd="@drawable/search_icon"
         android:ems="10"
+        android:hint="Search"
         android:inputType="textPersonName"
-        android:text="Search"
+        android:paddingStart="20dp"
+        android:paddingEnd="10sp"
+        android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_cari" />
+        app:layout_constraintTop_toBottomOf="@id/tv_cariOn"
+        tools:background="@drawable/custom_search" />
 
     <TextView
-        android:id="@+id/tv_rekomendasi"
-        android:layout_width="285dp"
+        android:id="@+id/tv_rekomendasiOn"
+        android:layout_width="325dp"
         android:layout_height="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         android:text="@string/rekomendasiartikel"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName7" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rekomendasiOn">
+
+        <LinearLayout
+            android:id="@+id/search_article_1"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_recommend_1"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/mie" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="@string/utama_content_1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_article_2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingTop="17dp">
+
+            <ImageView
+                android:id="@+id/iv_recommend_2"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/dewa" />
+
+            <TextView
+                android:id="@+id/tv_recommend_2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:text="@string/utama_content_2"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
