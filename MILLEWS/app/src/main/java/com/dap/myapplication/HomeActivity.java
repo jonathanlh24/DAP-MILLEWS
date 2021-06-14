@@ -10,6 +10,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.dap.myapplication.databinding.ActivityHomeBinding;
+import com.dap.myapplication.fragment.BookmarkFragment;
+import com.dap.myapplication.fragment.MainFragment;
+import com.dap.myapplication.fragment.ProfileFragment;
+import com.dap.myapplication.fragment.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {

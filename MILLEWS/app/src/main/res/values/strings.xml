@@ -155,4 +155,10 @@
     <string name="utama_content_messi_1">5 Momen yang Membuat Lionel Messi Hampir Hengkang dari Barcelona</string>
     <string name="utama_content_messi_2">5 Penyesalan Terbesar Lionel Messi Sepanjang Karier Sepak Bolanya</string>
     <string name="utama_content_messi_3">5 Pesepak Bola Top yang Tidak Cocok Bermain dengan Lionel Messi</string>
+    <string name="error_login">Please fill email and password</string>
+    <string name="ForgottenPassword">Forgotten Your Password ?</string>
+    <string name="textForgotPassword">Enter your email address and we\'ll send you a link to reset your password</string>
+    <string name="CheckEmail">Check Your Email</string>
+    <string name="textCheckEmail">Reset Link has been sent to jonathanlh@gmail.com</string>
+    <string name="error_login2">Please fill Username, Email, and Password</string>
 </resources>

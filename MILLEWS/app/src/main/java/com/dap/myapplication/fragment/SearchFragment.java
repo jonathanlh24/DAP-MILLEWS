@@ -1,7 +1,5 @@
-package com.dap.myapplication;
+package com.dap.myapplication.fragment;
 
-import android.content.Intent;
-import android.graphics.ImageDecoder;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,9 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.dap.myapplication.databinding.BookmarkBinding;
-import com.dap.myapplication.databinding.MainPageLogoffBinding;
-import com.dap.myapplication.databinding.MyprofileBinding;
+import com.dap.myapplication.R;
 import com.dap.myapplication.databinding.SearchUnfillOffBinding;
 
 public class SearchFragment extends Fragment {
@@ -46,7 +42,7 @@ public class SearchFragment extends Fragment {
         binding = SearchUnfillOffBinding.inflate(inflater,container, false);
         binding.searchArticle1.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
-            bundle.putString("txt_judul", binding.tvRecommend1.getText().toString());
+            bundle.putString("txt_judul", binding.tvRekomendasiOff.getText().toString());
             bundle.putString("header_article",binding.ivRecommend1.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleMie));
             ArticleFragment articleFragment = ArticleFragment.newInstance();

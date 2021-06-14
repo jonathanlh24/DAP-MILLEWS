@@ -122,7 +122,7 @@
         android:layout_width="285dp"
         android:layout_height="40dp"
         android:background="@drawable/custom_input"
-        android:drawableEnd="@drawable/toEdit_icon"
+        android:drawableEnd="@drawable/to_edit_icon"
         android:ems="10"
         android:inputType="textPersonName"
         android:paddingLeft="10sp"

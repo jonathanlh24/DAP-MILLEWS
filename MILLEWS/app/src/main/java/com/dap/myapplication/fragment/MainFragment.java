@@ -1,7 +1,6 @@
-package com.dap.myapplication;
+package com.dap.myapplication.fragment;
 
 import android.content.Intent;
-import android.graphics.ImageDecoder;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.dap.myapplication.LoginActivity;
+import com.dap.myapplication.R;
 import com.dap.myapplication.databinding.MainPageLogoffBinding;
 
 public class MainFragment extends Fragment {
@@ -49,7 +50,7 @@ public class MainFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = MainPageLogoffBinding.inflate(inflater,container, false);
         binding.btnLogin.setOnClickListener(view -> {
-            Intent intent = new Intent(getActivity(),LoginActivity.class);
+            Intent intent = new Intent(getActivity(), LoginActivity.class);
             startActivity(intent);
         });
 

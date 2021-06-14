@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801773327310",
+    "project_id": "dap-millews",
+    "storage_bucket": "dap-millews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801773327310:android:dbfcce6c5f63fa99c6d19f",
+        "android_client_info": {
+          "package_name": "com.dap.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801773327310-vddpe35fn67qsvqd1nb591ofbbg80oht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD54IyM-kMpqcQBB_BZ27zJZ6lwJ9WI2E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801773327310-vddpe35fn67qsvqd1nb591ofbbg80oht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

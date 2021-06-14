@@ -1,7 +1,5 @@
-package com.dap.myapplication;
+package com.dap.myapplication.fragment;
 
-import android.content.Intent;
-import android.graphics.ImageDecoder;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.dap.myapplication.databinding.MainPageLogoffBinding;
 import com.dap.myapplication.databinding.MyprofileBinding;
 
 public class ProfileFragment extends Fragment {
