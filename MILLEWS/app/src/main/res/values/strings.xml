@@ -63,6 +63,13 @@
         \t Mi instan ini dibuat dari tepung gandum dan memiliki berat sekitar 85 gram.
     </string>
 
+    <string name="isiArtikelEmasMaluku">
+        \t Jakarta || MILLEWS - Penemuan emas di pesisir Pantai Pohon Batu Desa Tamilouw, Kecamatan Amahai, Kabupaten Maluku Tengah menarik perhatian publik dalam beberapa waktu terakhir. Penemuan itu dikaitkan dengan tambang emas baru.\n
+        \t Peneliti Pusat Penelitian Geoteknologi Lembaga Ilmu Pengetahuan Indonesia, Iwan Setiawan menyatakan penemuan emas di pesisir pantai tidak ada kaitan dengan fenomena alam tertentu. Dia mengatakan emas memang bisa ditemukan di pesisir pantai karena proses alam.\n
+        \t \"Tidak ada hubungan fenomena tertentu akibat karena penemuan emas di pantai,\" ujar Iwan kepada CNNIndonesia.com, Rabu (24/3).\n
+        \t Iwan menuturkan Indonesia disusun rangkaian gunung api. Kondisi itu terbentuk dari proses magmatik dan tektonik atau pergerakan lembang. Aktivitas itu kemudian membuat magma naik ke atas dan akhirnya membentuk gunung api. Ketika proses itu, dia berkata ada cairan panas bernama hidrotermal.
+    </string>
+
     <string name="isiArticleDewa">
         \t Jakarta || MILLEWS - Chess.com, situs yang menjadi awal sensasi Dewa Kipas ikut memberikan komentar terkait performa Dewa Kipas saat menghadapi WGM Irene Kharisma Sukandar.\n
         \t Menurut Chess.com, ada perbedaan besar dalam elo rating yang terlihat dari penampilan Dewa Kipas.\n
@@ -129,7 +136,7 @@
 
     <string name="home">Home</string>
     <string name="international">International</string>
-    <string name="sport">Sport</string>
+    <string name="sport">Olahraga</string>
     <string name="travel">Travel</string>
     <string name="bookmark">Bookmark</string>
     <string name="main_profile">Welcome, Guest</string>
@@ -161,4 +168,13 @@
     <string name="CheckEmail">Check Your Email</string>
     <string name="textCheckEmail">Reset Link has been sent to jonathanlh@gmail.com</string>
     <string name="error_login2">Please fill Username, Email, and Password</string>
+    <string name="technology">Teknologi</string>
+    <string name="gayaHidup">Gaya Hidup</string>
+    <string name="travel_lain_rinjani">Info Pendakian Gunung Rinjani via Sembalun</string>
+    <string name="main_time_rinjani">1 Hari Lalu</string>
+    <string name="travel_lain_mentawai">Surga bagi Peselancar,  di Kepulauan Mentawai</string>
+    <string name="main_time_mentawai">1 Hari Lalu</string>
+    <string name="berita_lainnya">Berita Lainnya</string>
+    <string name="utama_content_emas">Ahli Jelaskan Teori Munculnya Emas di Pantai Maluku</string>
+    <string name="textberita">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
 </resources>

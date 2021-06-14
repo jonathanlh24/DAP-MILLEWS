@@ -72,40 +72,71 @@
 
             <TextView
                 android:id="@+id/tv_home"
-                android:layout_width="82dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
                 android:text="@string/home"
                 android:textAlignment="gravity"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/tv_international"
-                android:layout_width="153dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/international"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/tv_sport"
-                android:layout_width="81dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/sport"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/tv_travel"
-                android:layout_width="91dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
                 android:text="@string/travel"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_international"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
+                android:text="@string/international"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_sport"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
+                android:text="@string/sport"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_techonlogy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
+                android:text="@string/technology"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_gayaHidup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:paddingStart="15dp"
+                android:text="@string/gayaHidup"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -209,29 +240,23 @@
         app:layout_constraintVertical_bias="0.086" />
 
     <HorizontalScrollView
-        android:layout_width="410dp"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="0dp"
         android:layout_height="215dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_utama"
-        app:layout_constraintVertical_bias="0.086">
+        app:layout_constraintTop_toBottomOf="@+id/tv_utama">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="12dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical"></LinearLayout>
-
-            <LinearLayout
                 android:id="@+id/utama_main_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
                 android:layout_weight="1"
                 android:clickable="true"
                 android:orientation="vertical">
@@ -239,38 +264,56 @@
                 <ImageView
                     android:id="@+id/iv_utama_1"
                     android:layout_width="177dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_height="130dp"
                     app:srcCompat="@drawable/mie" />
 
                 <TextView
                     android:id="@+id/tv_utama_1"
                     android:layout_width="match_parent"
-                    android:layout_height="72dp"
-                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
                     android:text="@string/utama_content_1"
                     android:textColor="#000000"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    tools:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="15dp"
-                android:layout_height="match_parent"
+                android:id="@+id/utama_main_emas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
                 android:layout_weight="1"
-                android:orientation="vertical"></LinearLayout>
+                android:clickable="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_utama_emas"
+                    android:layout_width="174dp"
+                    android:layout_height="130dp"
+                    app:srcCompat="@drawable/emas" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/utama_content_emas"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    tools:textSize="15sp" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/utama_main_2"
-                android:layout_width="174dp"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
                 android:layout_weight="1"
                 android:clickable="true"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/iv_utama_2"
-                    android:layout_width="188dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="177dp"
+                    android:layout_height="130dp"
                     app:srcCompat="@drawable/dewa" />
 
                 <TextView
@@ -279,11 +322,24 @@
                     android:layout_height="wrap_content"
                     android:text="@string/utama_content_2"
                     android:textColor="#000000"
-                    android:textSize="14sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/tv_beritalainnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/berita_lainnya"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

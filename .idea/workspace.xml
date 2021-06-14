@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a49fc11-1e7f-4d00-bd5b-6c76d8be3c76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MILLEWS/app/src/main/res/drawable/rossi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MILLEWS/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MILLEWS/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a49fc11-1e7f-4d00-bd5b-6c76d8be3c76" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +35,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl" timestamp="1623050839284">
+    <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl" timestamp="1623640395791">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1623050839284" />
+    <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1623640395791" />
   </component>
 </project>
