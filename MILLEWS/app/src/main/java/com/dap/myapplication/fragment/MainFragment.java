@@ -94,6 +94,32 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
+        binding.utamaMainEmas.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvUtamaEmas.getText().toString());
+            bundle.putString("header_article",binding.ivUtamaEmas.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArtikelEmasMaluku));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.bookmarkArticle1.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvBookmarkContent1.getText().toString());
+            bundle.putString("header_article",binding.ivBookmarkContent1.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark1));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
         return binding.getRoot();
     }
 }

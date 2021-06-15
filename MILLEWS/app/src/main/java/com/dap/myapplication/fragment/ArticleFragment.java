@@ -62,6 +62,9 @@ public class ArticleFragment extends Fragment {
             else if (getArguments().getString("header_article").equals(getResources().getDrawable(R.drawable.bookmark4).getConstantState().toString())){
                 binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.bookmark4));
             }
+            else if (getArguments().getString("header_article").equals(getResources().getDrawable(R.drawable.emas).getConstantState().toString())){
+                binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.emas));
+            }
             else{
                 binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.rossi));
             }

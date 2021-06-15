@@ -293,6 +293,7 @@
                     app:srcCompat="@drawable/emas" />
 
                 <TextView
+                    android:id="@+id/tv_utama_emas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/utama_content_emas"
@@ -341,5 +342,60 @@
         app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <LinearLayout
+        android:id="@+id/bookmark_article_1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:clickable="true"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_beritalainnya"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/iv_bookmark_content_1"
+            android:layout_width="132dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/bookmark1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_bookmark_content_1"
+                android:layout_width="164dp"
+                android:layout_height="58dp"
+                android:text="@string/bookmark_content_2"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.609"
+                app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_time_4" />
+
+            <TextView
+                android:id="@+id/tv_bookmark_time_1"
+                android:layout_width="208dp"
+                android:layout_height="21dp"
+                android:text="@string/bookmark_time_2"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toEndOf="@+id/iv_bookmark_content_1"
+                app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_content_1"
+                app:layout_constraintVertical_bias="0.01" />
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
