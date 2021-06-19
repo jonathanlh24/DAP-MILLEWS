@@ -6,54 +6,58 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_forgotPassword"
-        android:layout_width="325dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="83dp"
-        android:gravity="center"
-        android:text="@string/CheckEmail"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="24sp"
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/tv_sendEmail"
-        android:layout_width="325dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/textCheckEmail"
-        android:textAlignment="center"
-        android:textColor="#888888"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_forgotPassword" />
+        <TextView
+            android:id="@+id/tv_forgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="@string/CheckEmail"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/img_checkEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="49dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sendEmail"
-        app:srcCompat="@drawable/cek_email" />
+        <TextView
+            android:id="@+id/tv_sendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/textCheckEmail"
+            android:textColor="#888888"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_checkEmail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/cek_email" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnToLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="400dp"
         android:text="Back To Login"
         android:textAllCaps="false"
         app:backgroundTint="#2E57EA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_checkEmail" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

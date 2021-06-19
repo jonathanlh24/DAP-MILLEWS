@@ -5,68 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_editEmail"
-        android:layout_width="325dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="48dp"
-        android:text="@string/editEmail"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:id="@+id/LL_profile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_editEmail">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tv_nameInEditName"
-            android:layout_width="325dp"
-            android:layout_height="30dp"
-            android:text="@string/tv_emailInEditEmail"
+            android:id="@+id/tv_editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/editEmail"
+            android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName1"
-            android:layout_width="325dp"
-            android:layout_height="30dp"
-            android:background="@drawable/custom_input"
-            android:drawableStart="@drawable/email_icon"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:paddingStart="10sp"
-            android:text="jonathanlh@gmail.com "
-            android:textAlignment="viewEnd"
-            android:textSize="16sp" />
+        <LinearLayout
+            android:id="@+id/LL_editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/tv_editYourEmail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="bottom"
+                android:text="@string/tv_emailInEditEmail"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/email_icon"
+                android:ems="10"
+                android:inputTypxxe="textPersonName"
+                android:paddingStart="10sp"
+                android:text="jonathanlh@gmail.com "
+                android:textAlignment="viewEnd"
+                android:textSize="16sp" />
+
+        </LinearLayout>
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_EditProfile"
+        android:id="@+id/btn_submit"
         android:layout_width="163dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="575dp"
         android:text="@string/btn_submit"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:backgroundTint="#FF0000"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LL_profile"
-        app:layout_constraintVertical_bias="0.416" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

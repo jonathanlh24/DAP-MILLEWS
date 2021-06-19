@@ -38,14 +38,14 @@
     <string name="keterangan">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
 
     <string name="isiArticleRossi">
-        \t Jakarta || MILLEWS - Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n
-        \t Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik.\n
-        \t \"Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash.\n
-        \t Rossi pun optimistis bisa berada dalam rombongan besar yang bersaing menuju podium kemenangan.\n
-        \t \"Saya rasa ada banyak pembalap dengan motor berbeda yang juga kuat, namun kami juga berada di tempat yang sama dengan mereka.\"\n
-        \t \"Kecepatan kami juga terlihat baik, jadi saya merasa kami sudah siap untuk memulai musim ini di Qatar,\" tutur Rossi.\n
-        \t Balapan MotoGP 2021 merupakan balapan yang menarik untuk Rossi lantaran ini adalah balapan pertama sejak ia terdepak dari pabrikan Yamaha dan membela tim satelit Petronas Yamaha.\n
-        \t Rossi punya kontrak satu tahun dengan Petronas Yamaha namun punya opsi perpanjangan satu musim. Rossi bakal melihat penampilannya musim ini terlebih dulu sebelum memutuskan masa depan.\n
+        \t Jakarta || MILLEWS - Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n\n
+        \t Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik.\n\n
+        \t \"Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash.\n\n
+        \t Rossi pun optimistis bisa berada dalam rombongan besar yang bersaing menuju podium kemenangan.\n\n
+        \t \"Saya rasa ada banyak pembalap dengan motor berbeda yang juga kuat, namun kami juga berada di tempat yang sama dengan mereka.\"\n\n
+        \t \"Kecepatan kami juga terlihat baik, jadi saya merasa kami sudah siap untuk memulai musim ini di Qatar,\" tutur Rossi.\n\n
+        \t Balapan MotoGP 2021 merupakan balapan yang menarik untuk Rossi lantaran ini adalah balapan pertama sejak ia terdepak dari pabrikan Yamaha dan membela tim satelit Petronas Yamaha.\n\n
+        \t Rossi punya kontrak satu tahun dengan Petronas Yamaha namun punya opsi perpanjangan satu musim. Rossi bakal melihat penampilannya musim ini terlebih dulu sebelum memutuskan masa depan.\n\n
         \t Balapan MotoGP Qatar 2021 bakal jadi balapan pembuka MotoGP 2021. Balapan MotoGP Qatar bakal berlangsung pada Senin (29/3) dini hari pukul 00.00 WIB.
     </string>
 
@@ -138,7 +138,7 @@
     <string name="international">International</string>
     <string name="sport">Olahraga</string>
     <string name="travel">Travel</string>
-    <string name="bookmark">Bookmark</string>
+    <string name="bookmark">BOOKMARK</string>
     <string name="main_profile">Welcome, Guest</string>
     <string name="main_content_1">Rossi Yakin Bisa Bersaing di MotoGP Qatar</string>
     <string name="main_category_1">Olahraga</string>
@@ -166,15 +166,26 @@
     <string name="ForgottenPassword">Forgotten Your Password ?</string>
     <string name="textForgotPassword">Enter your email address and we\'ll send you a link to reset your password</string>
     <string name="CheckEmail">Check Your Email</string>
-    <string name="textCheckEmail">Reset Link has been sent to jonathanlh@gmail.com</string>
+    <string name="textCheckEmail">Reset Link has been sent to \n jonathanlh@gmail.com</string>
     <string name="error_login2">Please fill Username, Email, and Password</string>
     <string name="technology">Teknologi</string>
     <string name="gayaHidup">Gaya Hidup</string>
     <string name="travel_lain_rinjani">Info Pendakian Gunung Rinjani via Sembalun</string>
-    <string name="main_time_rinjani">1 Hari Lalu</string>
+    <string name="main_time_rinjani">| 1 Hari Lalu</string>
     <string name="travel_lain_mentawai">Surga bagi Peselancar,  di Kepulauan Mentawai</string>
-    <string name="main_time_mentawai">1 Hari Lalu</string>
+    <string name="main_time_mentawai">| 1 Hari Lalu</string>
     <string name="berita_lainnya">Berita Lainnya</string>
     <string name="utama_content_emas">Ahli Jelaskan Teori Munculnya Emas di Pantai Maluku</string>
     <string name="textberita">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
+    <string name="gemerlap_WismaAtlet">Gemerlap Lampu RS Wisma Atlet dan Hilir Mudik Pasien Covid-19</string>
+    <string name="main_time_gemerlap_WismaAtlet">Sabtu, 19/06/2021 20:47 WIB</string>
+    <string name="jerman_portugal">7 Alasan Jerman Bisa Kalahkan Portugal di Euro 2020</string>
+    <string name="main_time_jerman_portugal">Sabtu, 19/06/2021 21:19 WIB</string>
+    <string name="ikanCoelacanth">Ikan Purba Coelacanth Dapat Hidup Hingga 100 Tahun</string>
+    <string name="main_time_ikanCoelacanth">Sabtu, 19/06/2021 21:35 WIB</string>
+    <string name="main_time_rossi">Rabu, 24/03/2021 12:08 WIB</string>
+    <string name="rossi">Rossi Yakin Bisa Bersaing di MotoGP Qatar</string>
+    <string name="main_time_peristiwaBersejarah">13 menit lalu</string>
+    <string name="main_content_peristiwaBersejarah">7 Peristiwa Bersejarah di Dunia pada Abad ke-20 </string>
+    <string name="btn_sign_up">Sign Up</string>
 </resources>

@@ -44,9 +44,6 @@ public class ArticleFragment extends Fragment {
             if(getArguments().getString("header_article").equals(getResources().getDrawable(R.drawable.mie).getConstantState().toString())){
                 binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.mie));
             }
-//            else if(getArguments().getString("header_article").equals(getResources().getDrawable(R.drawable.mie).getConstantState().toString())){
-//                binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.mie));
-//            }
             else if (getArguments().getString("header_article").equals(getResources().getDrawable(R.drawable.dewa).getConstantState().toString())){
                 binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.dewa));
             }
