@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a49fc11-1e7f-4d00-bd5b-6c76d8be3c76" name="Default Changelist" comment="" />
+    <list default="true" id="7a49fc11-1e7f-4d00-bd5b-6c76d8be3c76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MILLEWS/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MILLEWS/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MILLEWS/app/src/main/java/com/dap/myapplication/fragment/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/MILLEWS/app/src/main/java/com/dap/myapplication/fragment/LoginFragment.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +38,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl" timestamp="1623640395791">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="375" y="51" width="706" height="767" key="FileChooserDialogImpl" timestamp="1624169142256">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="375" y="51" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624169142256" />
     <state x="527" y="76" width="706" height="767" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1623640395791" />
   </component>
 </project>

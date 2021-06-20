@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.dap.myapplication.HomeActivity;
 import com.dap.myapplication.MainActivity;
 import com.dap.myapplication.R;
 import com.dap.myapplication.databinding.LoginFragmentBinding;
@@ -92,7 +93,7 @@ public class LoginFragment extends Fragment {
 
     private void updateUI(FirebaseUser firebaseUser) {
         if (firebaseUser != null) {
-            Intent intent = new Intent(getActivity(), MainActivity.class);
+            Intent intent = new Intent(getActivity(), HomeActivity.class);
             startActivity(intent);
         }
     }
