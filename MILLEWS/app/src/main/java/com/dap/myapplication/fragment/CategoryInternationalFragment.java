@@ -62,7 +62,8 @@ public class CategoryInternationalFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainContent1.getText().toString());
             bundle.putString("header_article",binding.ivMainContent.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleNahkodaItalia));
-            bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_nakhodaItalia));
+            bundle.putString("txt_date",getResources().getString(R.string.date_nahkodaItalia));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -76,6 +77,8 @@ public class CategoryInternationalFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvInternasionalUnesco.getText().toString());
             bundle.putString("header_article",binding.ivInternasionalUnesco.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleUnesco));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_unesco));
+            bundle.putString("txt_date",getResources().getString(R.string.date_unesco));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -89,6 +92,8 @@ public class CategoryInternationalFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvInternasionalCovidBrazil.getText().toString());
             bundle.putString("header_article",binding.ivInternasionalCovidBrazil.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCovidBrazil));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_covidBrazil));
+            bundle.putString("txt_date",getResources().getString(R.string.date_covidBrazil));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -102,6 +107,8 @@ public class CategoryInternationalFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvInternasionalASKritikPemiluIran.getText().toString());
             bundle.putString("header_article",binding.ivInternasionalASKritikpemiluIran.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleASKritikPemiluIran));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_AS_kritik_pemilu_Iran));
+            bundle.putString("txt_date",getResources().getString(R.string.date_AS_kritik_pemilu_Iran));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -115,6 +122,8 @@ public class CategoryInternationalFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvInternasionalPemungutsuaraIran.getText().toString());
             bundle.putString("header_article",binding.ivInternasionalPemungutansuaraIran.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticlePemungutanSuaraIran));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_pemungutansuaraIran));
+            bundle.putString("txt_date",getResources().getString(R.string.date_pemungutan_suara_Iran));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 

@@ -63,7 +63,8 @@ public class CategoryLifestyleFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainContentYogaSaatPandemi.getText().toString());
             bundle.putString("header_article",binding.ivMainContentYogaSaatPandemi.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleYoga));
-            bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_yoga));
+            bundle.putString("txt_date",getResources().getString(R.string.date_yoga));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -77,6 +78,8 @@ public class CategoryLifestyleFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvGayaHidupPasangRingSetelahSeranganJantung.getText().toString());
             bundle.putString("header_article",binding.ivGayaHidupPasangRingSetelahSeranganJantung.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticlePasangRingSetelahSeranganJantung));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_pasangRing_setelah_serangan_jantung));
+            bundle.putString("txt_date",getResources().getString(R.string.date_pasangRing_setelah_serangan_jantung));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -90,6 +93,8 @@ public class CategoryLifestyleFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvGayaHidupVitD.getText().toString());
             bundle.putString("header_article",binding.ivGayaHidupVitD.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleVitD));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_vitD));
+            bundle.putString("txt_date",getResources().getString(R.string.date_vitD));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -103,6 +108,8 @@ public class CategoryLifestyleFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvGayaHidupKencanPertama.getText().toString());
             bundle.putString("header_article",binding.ivGayaHidupKencanPertama.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKencanPertama));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_kencanPertama));
+            bundle.putString("txt_date",getResources().getString(R.string.date_kencanPertama));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -116,6 +123,8 @@ public class CategoryLifestyleFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvGayaHidupPenggantiMicin.getText().toString());
             bundle.putString("header_article",binding.ivGayaHidupPenggantiMicin.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleAlternatifMicin));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_pengganti_micin));
+            bundle.putString("txt_date",getResources().getString(R.string.date_pengganti_micin));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 

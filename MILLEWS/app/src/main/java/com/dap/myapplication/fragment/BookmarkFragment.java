@@ -44,7 +44,8 @@ public class BookmarkFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvBookmarkContent1.getText().toString());
             bundle.putString("header_article",binding.ivBookmarkContent1.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark1));
-            bundle.putString("txt_date", binding.tvBookmarkTime1.getText().toString());
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_seohyun));
+            bundle.putString("txt_date",getResources().getString(R.string.date_seohyun));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -72,7 +73,8 @@ public class BookmarkFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvBookmarkContent3.getText().toString());
             bundle.putString("header_article",binding.ivBookmarkContent3.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark3));
-            bundle.putString("txt_date", binding.tvBookmarkTime3.getText().toString());
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_destaEnzy));
+            bundle.putString("txt_date",getResources().getString(R.string.date_destaEnzy));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -86,7 +88,8 @@ public class BookmarkFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvBookmarkContent4.getText().toString());
             bundle.putString("header_article",binding.ivBookmarkContent4.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark4));
-            bundle.putString("txt_date", binding.tvBookmarkTime4.getText().toString());
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_iphone13));
+            bundle.putString("txt_date",getResources().getString(R.string.date_iphone13));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 

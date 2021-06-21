@@ -73,8 +73,9 @@ public class CategoryTravelFragment extends Fragment {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvTravelLain1.getText().toString());
             bundle.putString("header_article",binding.ivTravelMalang.getDrawable().getConstantState().toString());
-            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_Malang));
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleWisataPantaiMalang));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_Malang));
+            bundle.putString("txt_date",getResources().getString(R.string.date_malang));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -88,6 +89,8 @@ public class CategoryTravelFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvTravelLain2.getText().toString());
             bundle.putString("header_article",binding.ivTravelRinjani.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleGunungRinjani));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_rinjani));
+            bundle.putString("txt_date",getResources().getString(R.string.date_rinjani));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -101,6 +104,8 @@ public class CategoryTravelFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvTravelLain3.getText().toString());
             bundle.putString("header_article",binding.ivTravelMentawai.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleSelancarMentawai));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_selancarMelawai));
+            bundle.putString("txt_date",getResources().getString(R.string.date_selancarMelawai));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 

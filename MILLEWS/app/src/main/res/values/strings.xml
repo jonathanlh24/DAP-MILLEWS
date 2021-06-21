@@ -34,7 +34,6 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="judulArticle">Rossi Yakin Bisa Bersaing di MotoGP Qatar</string>
-    <string name="date">Rabu, 24/03/2021 12:08 WIB</string>
     <string name="keterangan">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
     <string name="home">Home</string>
     <string name="international">Internasional</string>
@@ -232,7 +231,7 @@
     </string>
 
     <string name="isiArticleRossi">
-        Jakarta || MILLEWS - Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n\n
+        Jakarta, MILLEWS - Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n\n
         Setelah sempat kesulitan di sesi tes awal bersama Petronas Yamaha, Rossi menunjukkan sikap optimistis jelang MotoGP Qatar seiring catatan waktunya yang membaik.\n\n
         \"Usai tes di Qatar, saya merasa cukup kuat dan keseimbangan motor juga bagus. Saya mendapatkan waktu terbaik saya dik sirkuit yang merupakan hal penting dan positif,\" ucap Rossi seperti dikutip dari Crash.\n\n
         Rossi pun optimistis bisa berada dalam rombongan besar yang bersaing menuju podium kemenangan.\n\n
@@ -244,7 +243,7 @@
     </string>
 
     <string name="isiArticleMie">
-        Jakarta ||  MILLEWS - Tommy Cash dan rumah mode Maison Margiela meluncurkan kolaborasi terbaru mereka. Namun, bukan Tommy Cash namanya kalau kolaborasinya biasa-biasa saja.\n\n
+        Jakarta, MILLEWS - Tommy Cash dan rumah mode Maison Margiela meluncurkan kolaborasi terbaru mereka. Namun, bukan Tommy Cash namanya kalau kolaborasinya biasa-biasa saja.\n\n
         Cash memang terkenal dengan produk kolaborasi yang unik. Di awal bulan ini, rapper dan artis Estonia ini memulai kolaborasinya dengan Adidas untuk membuat sepatu kets sepanjang satu meter.\n\n
         Sebelumnya, persahabatannya dengan desainer Rick Owens juga menghasilkan serangkaian proyek lagu Mona Lisa pada 2018 hingga pameran The Pure and The Damned pada 2019.\n\n
         Dalam koleksi kolaborasinya dengan Maison Margiela, Cash menghadirkan serangkaian koleksi \'biasa\' tapi punya harga mahal.\n\n
@@ -258,7 +257,7 @@
     </string>
 
     <string name="isiArtikelEmasMaluku">
-        \t Jakarta || MILLEWS - Penemuan emas di pesisir Pantai Pohon Batu Desa Tamilouw, Kecamatan Amahai, Kabupaten Maluku Tengah menarik perhatian publik dalam beberapa waktu terakhir. Penemuan itu dikaitkan dengan tambang emas baru.\n\n
+        \t Jakarta, MILLEWS - Penemuan emas di pesisir Pantai Pohon Batu Desa Tamilouw, Kecamatan Amahai, Kabupaten Maluku Tengah menarik perhatian publik dalam beberapa waktu terakhir. Penemuan itu dikaitkan dengan tambang emas baru.\n\n
         Peneliti Pusat Penelitian Geoteknologi Lembaga Ilmu Pengetahuan Indonesia, Iwan Setiawan menyatakan penemuan emas di pesisir pantai tidak ada kaitan dengan fenomena alam tertentu. Dia mengatakan emas memang bisa ditemukan di pesisir pantai karena proses alam.\n\n
         \"Tidak ada hubungan fenomena tertentu akibat karena penemuan emas di pantai,\" ujar Iwan kepada CNNIndonesia.com, Rabu (24/3).\n\n
         Iwan menuturkan Indonesia disusun rangkaian gunung api. Kondisi itu terbentuk dari proses magmatik dan tektonik atau pergerakan lembang. Aktivitas itu kemudian membuat magma naik ke atas dan akhirnya membentuk gunung api. Ketika proses itu, dia berkata ada cairan panas bernama hidrotermal.\n\n
@@ -271,7 +270,7 @@
     </string>
 
     <string name="isiArticleDewa">
-        Jakarta || MILLEWS - Chess.com, situs yang menjadi awal sensasi Dewa Kipas ikut memberikan komentar terkait performa Dewa Kipas saat menghadapi WGM Irene Kharisma Sukandar.\n
+        Jakarta, MILLEWS - Chess.com, situs yang menjadi awal sensasi Dewa Kipas ikut memberikan komentar terkait performa Dewa Kipas saat menghadapi WGM Irene Kharisma Sukandar.\n
         Menurut Chess.com, ada perbedaan besar dalam elo rating yang terlihat dari penampilan Dewa Kipas.\n
         \"Chess.com memperkirakan penampilannya [Dewa Kipas] dalam tiga babak [melawan Irene] adalah memiliki elo 1.127. Penampilan online rating miliknya melebihi elo 3.000, penampilan tertinggi dalam sistem Fair Play Chess.com untuk menghitung permainan antar manusia,\" tulis Chess.com.\n
         Sensasi Dewa Kipas bermula pada penampilannya di Chess.com. Dalam situs permainan daring catur tersebut, Dewa Kipas meraih kemenangan atas GothamChess alias Levy Rozman yang bergelar International Master.\n
@@ -515,7 +514,7 @@
         Penyidikan CPI juga menemukan bahwa pemerintah Brasil mengabaikan 81 email dari produsen vaksin Pfizer yang menawarkan vaksin dengan setengah harga. Pemerintah Brasil bahkan saat ini menawarkan negaranya menjadi tuan rumah Copa Amerika setelah Argentina dan Kolombia menolah tawaran itu.\n\n
         Hingga saat ini, Presiden Bolsonaro belum memberikan komentar terkait jumlah kasus dan angka kematian yang melonjak.
     </string>
-    
+
     <string name="isiArticleASKritikPemiluIran">
         Jakarta, MILLEWS - Amerika Serikat menyampaikan pernyataan yang menyesalkan banyak warga Iran yang tidak dapat berpartisipasi dalam \"proses pemilihan yang bebas dan adil\" dalam pemilihan presiden negara itu.\n\n
         Seperti diketahui, pemilu yang memenangkan Presiden Ebrahim Raisi itu diketahui mencatat tingkat partisipasi pemilih di bawah 50 persen. Raisi menang telak dengan perolehan suara jauh mengungguli dua pesaingnya, Mohsen Rezaei dari kubu konservatif dan Abdolnaser Hemmati dari kubu teknokrat.\n\n
@@ -542,8 +541,8 @@
         Empat capres yang bertarung adalah ulama ultrakonservatif Ebrahim Raisi, eks komandan Garda Revolusi Iran Mohsen Rezai, mantan Gubernur Bank Sentral Iran Abdolnasser Hemmati, dan politikus partai FIRS Amir-Hossein Ghazizadeh.\n\n
         Pemenang akan menggantikan Presiden Hassan Rouhani yang sudah menjabat dua periode.
     </string>
-    
-    // Olahraga 
+
+    // Olahraga
     <string name="isiArtileItaliaEuro2020GroupA">
         Jakarta, MILLEWS - Timnas Italia dan timnas Swiss menang di laga terakhir Grup A Euro 2020 (Euro 2021). Berikut klasemen akhir Grup A yang juga berisi Wales dan Turki.xx\n\n
         Italia yang melakukan rotasi besari-besaran terbukti bisa tetap tampil solid dalam laga lawan Wales. Meskipun hanya meraih kemenangan tipis 1-0, Italia sukses mengakhiri penyisihan dengan status juara grup.\n\n
@@ -589,7 +588,7 @@
         \"Sebelum balapan saya yakin bisa meraih podium, peluang meraih kemenangan cukup rendah meski peluangnya ada. Setelah hujan turun, saya rasa ini adalah balapan milik saya, saya kemudian ambil risiko lebih besar,\" ucap Marquez.\n\n
         \"Di paruh kedua balapan saya harus melawan Oliveira. Sulit untuk bisa fokus karena banyak memori buruk yang saya pikirkan, tapi pada akhirnya kami mampu melakukannya,\" sambung Marquez.
     </string>
-    
+
     <string name="isiArticleKBD">
         Jakarta, MILLEWS - Kevin De Bruyne menghindari menyundul bola dalam latihan bersama timnas Belgia di Euro 2020 (Euro 2021).\n\n
         Kevin De Bruyne mengungkapkan bahwa dia tidak menyundul bola dalam latihan karena dikhawatirkan berisiko pada cedera di area wajahnya.\n\n
@@ -811,12 +810,17 @@
     <string name="beritatag_seohyun">Seohyun akan bemain bareng Lee Jun-young.</string>
     <string name="beritatag_belanda">Ada banyak tempat wisata di Belanda yang wajib dikunjungi, mulai dari pantai, danau, sampai museum</string>
     <string name="beritatag_Malang">Ada banyak tempat wisata di Malang yang wajib dikunjungi, mulai dari pantai, danau, sampai museum</string>
-    <string name="beritatag_selancarMentawai">Pantai berpasir putih di Kepulauan Mentawai, Sumatera Barat</string>
+    <string name="beritatag_selancarMelawai">Pantai berpasir putih di Kepulauan Mentawai, Sumatera Barat</string>
     <string name="beritatag_nakhodaItalia">Jasad kapten kapal Italia terdampar berminggu-minggu di Jakarta karena virus corona. Tak ada yang mau menerima jenazahnya karena Covid-19.(Foto ilustrasi kapal kargo: ANTARA FOTO/Wahyu Putro A)</string>
     <string name="beritatag_unesco">Badan organisasi PBB ini dibentuk untuk mempromosikan kedamaian, keadilan, dan keamanan internasional. Simak sejarah berdirinya UNESCO dan sektor yang dibidangi. (Foto: AFP PHOTO / JEAN-PIERRE MULLER)</string>
     <string name="beritatag_covidBrazil">Kasus kematian akibat Covid-19 di Brasil terus melonjak. Pada Sabtu (19/6), kematian karena Covid-19 di Brasil menembus 500 ribu jiwa.(Foto: AP/Eraldo Peres)</string>
     <string name="beritatag_AS_kritik_pemilu_Iran">Pemilu Iran. (via REUTERS/WANA NEWS AGENCY)</string>
     <string name="beritatag_pemungutansuaraIran">Rakyat Iran mengikuti Pemilu untuk memilih presiden baru. (VIA REUTERS/WANA NEWS AGENCY)</string>
+    <string name="beritatag_kecelakaanTesla">Badan keamanan Amerika Serikat memutuskan untuk menyelidiki 10 kematian kecelakaan lalu lintas yang melibatkan mobil listrik Tesla.(Foto: AP/Paul Sakuma)</string>
+    <string name="beritatag_fiturWA_antarPlatform">WhatsApp saat ini sedang mengembangkan fitur transfer chat WhatsApp antar platform. Berikut kegunaan fitur transfer chat WhatsApp. (Foto: CNN Indonesia/Bisma Septalisma)</string>
+    <string name="beritatag_call_n_ring_WA">Saat menelepon lewat WhatsApp, layar akan menampilkan status panggilan calling atau ringing. Berikut beda calling dan ringing pada WhatsApp. (Ilustrasi Foto: Pixabay/E1N7E)</string>
+    <string name="beritatag_tamagochi">Ilustrasi (imoo)</string>
+    <string name="beritatag_kuantum">Ilustrasi internet kuantum. (Foto: AFP/KAZUHIRO NOGI)</string>
     <string name="beritatag_Italia2020_groupA">Timnas Italia meraih hasil sempurna di babak penyisihan Grup A Euro 2020. (AP/Alessandra Tarantino)</string>
     <string name="beritatag_belgia_harus_menang_lawan_finlandia">Thibat Courtois mengatakan Belgia wajib menang lawan Finlandia di Euro 2020. (AP/Francisco Seco)</string>
     <string name="beritatag_maxVerstappenF1">Max Verstappen mengalahkan Lewis Hamilton di F1 GP Prancis. (AP/Francois Mori)</string>
@@ -827,4 +831,46 @@
     <string name="beritatag_vitD">Vitamin D merupakan salah nutrisi penting yang dibutuhkan tubuh, apalagi di tengah kasus Covid-19 yang sedang tinggi kembali. (iStockphoto/yulka3ice)</string>
     <string name="beritatag_kencanPertama">Ilustrasi. Setiap orang pasti ingin kencan pertamanya berkesan. Berikut sejumlah kiat yang bisa Anda lakukan agar kencan pertama berjalan sukses. (Brodie Vissers via StockSnap)</string>
     <string name="beritatag_pengganti_micin">Ilustrasi. Beberapa bahan alternatif ini, mulai dari kecap hingga bawang putih, memberikan rasa yang tak kalah gurih dari micin. (Anelka/Pixabay)</string>
+    <string name="beritatag_rinjani">Jalur paling mudah dan populer di Rinjani </string>
+    <string name="beritatag_kiperSevilla">Kiper Yassine Bounou bobol gawang Valladolid. (AFP/CESAR MANSO)</string>
+    <string name="beritatag_destaEnzy">Desta dan Enzy Storia</string>
+    <string name="beritatag_iphone13">iPhone 12 yang diluncurkan Oktober 2020. (Foto: (Apple via AP))</string>
+
+    // DATE BERITA
+    <string name="date_peristiwa_bersejarah">Sabtu, 19/06/2021 22:53 WIB</string>
+    <string name="date_mie">Rabu, 24/03/2021 12:20 WIB</string>
+    <string name="date_emasMaluku">Rabu, 24/03/2021 11:42 WIB</string>
+    <string name="date_dewaKipas">Rabu, 24/03/2021 08:25 WIB</string>
+    <string name="date_ikanCoelacanth">Sabtu, 19/06/2021 21:35 WIB</string>
+    <string name="date_JermanVSPortugal">Sabtu, 19/06/2021 21:19 WIB</string>
+    <string name="date_gemerlapWismaAtlet">Sabtu, 19/06/2021 20:47 WIB</string>
+    <string name="date_rossi">Rabu, 24/03/2021 12:08 WIB</string>
+    <string name="date_seohyun">Selasa, 23/03/2021 09:15 WIB</string>
+    <string name="date_belanda">Minggu, 05/04/2021 16:15 WIB</string>
+    <string name="date_malang">Sabtu, 04/04/2021 20:30 WIB</string>
+    <string name="date_selancarMelawai">Minggu, 12/04/2021 11:52 WIB</string>
+    <string name="date_nahkodaItalia">Minggu, 20/06/2021 12:00 WIB</string>
+    <string name="date_unesco">Minggu, 20/06/2021 11:36 WIB</string>
+    <string name="date_covidBrazil">Minggu, 20/06/2021 07:53 WIB</string>
+    <string name="date_AS_kritik_pemilu_Iran">Minggu, 20/06/2021 12:37 WIB</string>
+    <string name="date_pemungutan_suara_Iran">Sabtu, 19/06/2021 10:45 WIB</string>
+    <string name="date_kecelakaanTesla">Minggu, 20/06/2021 12:37 WIB</string>
+    <string name="date_fiturWA_antarPlatform">Senin, 21/06/2021 06:30 WIB</string>
+    <string name="date_call_n_ring_WA">Minggu, 20/06/2021 07:15 WIB</string>
+    <string name="date_tamagochi">Senin, 21/06/2021 07:28 WIB</string>
+    <string name="date_kuantum">Sabtu, 19/06/2021 09:35 WIB</string>
+    <string name="date_Italia2020_groupA">Senin, 21/06/2021 01:32 WIB</string>
+    <string name="date_belgia_harus_menang_lawan_finlandia">Minggu, 20/06/2021 23:01 WIB</string>
+    <string name="date_maxVerstappenF1">Minggu, 20/06/2021 21:33 WIB</string>
+    <string name="date_MarcMarquez_menangis_menang">Minggu, 20/06/2021 20:20 WIB</string>
+    <string name="date_KDB">Minggu, 20/06/2021 15:33 WIB</string>
+    <string name="date_yoga">Senin, 21/06/2021 09:00 WIB</string>
+    <string name="date_pasangRing_setelah_serangan_jantung">Senin, 21/06/2021 08:18 WIB</string>
+    <string name="date_vitD">Senin, 21/06/2021 07:32 WIB</string>
+    <string name="date_kencanPertama">Minggu, 20/06/2021 14:58 WIB</string>
+    <string name="date_pengganti_micin">Minggu, 20/06/2021 11:08 WIB</string>
+    <string name="date_rinjani">Sabtu, 04/04/2021 12:45 WIB</string>
+    <string name="date_kiperSevilla">Minggu, 21/03/2021 05:54 WIB</string>
+    <string name="date_destaEnzy">Sabtu, 19/12/2020 20:05 WIB</string>
+    <string name="date_iphone13">Rabu, 24/03/2021 08:05 WIB</string>
 </resources>

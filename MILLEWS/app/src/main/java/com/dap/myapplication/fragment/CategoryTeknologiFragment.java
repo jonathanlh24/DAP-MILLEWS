@@ -60,7 +60,8 @@ public class CategoryTeknologiFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainContentTamagochi.getText().toString());
             bundle.putString("header_article",binding.ivMainContentTamagochi.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleTamagochi));
-            bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_tamagochi));
+            bundle.putString("txt_date",getResources().getString(R.string.date_tamagochi));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -74,6 +75,8 @@ public class CategoryTeknologiFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainCategoryFiturWaAntarPlatform.getText().toString());
             bundle.putString("header_article",binding.ivTeknologiFiturWAAntarPlatform.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCallnRingWA));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_fiturWA_antarPlatform));
+            bundle.putString("txt_date",getResources().getString(R.string.date_fiturWA_antarPlatform));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -87,6 +90,8 @@ public class CategoryTeknologiFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvTeknologiTesla.getText().toString());
             bundle.putString("header_article",binding.ivTeknologiTesla.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKecelakaanTesla));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_kecelakaanTesla));
+            bundle.putString("txt_date",getResources().getString(R.string.date_kecelakaanTesla));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -100,6 +105,8 @@ public class CategoryTeknologiFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainTimeCallAndRingWa.getText().toString());
             bundle.putString("header_article",binding.ivTeknologiCallAndRingWa.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCallnRingWA));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_call_n_ring_WA));
+            bundle.putString("txt_date",getResources().getString(R.string.date_call_n_ring_WA));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -113,6 +120,8 @@ public class CategoryTeknologiFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvTeknologiKuantum.getText().toString());
             bundle.putString("header_article",binding.ivTeknologiKunatum.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKuantum));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_kuantum));
+            bundle.putString("txt_date",getResources().getString(R.string.date_kuantum));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 

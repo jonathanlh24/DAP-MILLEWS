@@ -61,7 +61,8 @@ public class CategorySportFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvMainContent1.getText().toString());
             bundle.putString("header_article",binding.ivMainContentOlahraga.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArtileItaliaEuro2020GroupA));
-            bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_Italia2020_groupA));
+            bundle.putString("txt_date",getResources().getString(R.string.date_Italia2020_groupA));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -75,6 +76,8 @@ public class CategorySportFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvOlahragaBelgiaHarusMenang.getText().toString());
             bundle.putString("header_article",binding.ivOlahragaBegiaHarusMenang.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleBelgiaHarusMenangVSFinlandia));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_belgia_harus_menang_lawan_finlandia));
+            bundle.putString("txt_date",getResources().getString(R.string.date_belgia_harus_menang_lawan_finlandia));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -88,6 +91,8 @@ public class CategorySportFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvOlahragaMaxVerstappern.getText().toString());
             bundle.putString("header_article",binding.ivOlahragaMaxVerstappen.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleMaxVerstappenF1));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_maxVerstappenF1));
+            bundle.putString("txt_date",getResources().getString(R.string.date_maxVerstappenF1));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -101,6 +106,8 @@ public class CategorySportFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvOlahraganMarquezMenangisMenang.getText().toString());
             bundle.putString("header_article",binding.ivOlahragaMarquezMenangisMenang.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleMarcMarquez_menangis_menang));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_MarcMarquez_menangis_menang));
+            bundle.putString("txt_date",getResources().getString(R.string.date_MarcMarquez_menangis_menang));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
@@ -114,6 +121,8 @@ public class CategorySportFragment extends Fragment {
             bundle.putString("txt_judul", binding.tvOlahragaKDB.getText().toString());
             bundle.putString("header_article",binding.ivOlahragaKdb.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKBD));
+            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_KDB));
+            bundle.putString("txt_date",getResources().getString(R.string.date_KDB));
             ArticleFragment articleFragment = ArticleFragment.newInstance();
             articleFragment.setArguments(bundle);
 
