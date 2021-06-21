@@ -104,7 +104,7 @@ public class CategoryTravelFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.tvGayaHidup.setOnClickListener(view -> {
+        binding.tvGayaHidup3.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             CategoryLifestyleFragment categoryLifestyleFragment = CategoryLifestyleFragment.newInstance();
             categoryLifestyleFragment.setArguments(bundle);

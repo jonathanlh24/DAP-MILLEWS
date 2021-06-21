@@ -113,10 +113,10 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.ivMainContentPeristiwaBersejarah.setOnClickListener(view -> {
+        binding.ivMainContent.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvMainContent1.getText().toString());
-            bundle.putString("header_article",binding.ivMainContentPeristiwaBersejarah.getDrawable().getConstantState().toString());
+            bundle.putString("header_article",binding.ivMainContent.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticlePenemuanBersejarahDunia));
             bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_peristiwa_bersejarah));
             bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
@@ -173,10 +173,10 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.lainnyaBeritaIkanCoelacanth.setOnClickListener(view -> {
+        binding.LLBeritaIkanCoelacanth.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvJudulLainnyaIkanCoelacanth.getText().toString());
-            bundle.putString("header_article",binding.ivIkanCoelacanth.getDrawable().getConstantState().toString());
+            bundle.putString("header_article",binding.ivIkancoelacanth.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiArticleIkanCoelacanth));
             bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_ikanCoelacanth));
             bundle.putString("txt_date",getResources().getString(R.string.date_ikanCoelacanth));
@@ -188,7 +188,7 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.lainnyaBeritaJermanPortugal.setOnClickListener(view -> {
+        binding.LLBeritaJermanPortugal.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvJudulLainnyaJermanPortugal.getText().toString());
             bundle.putString("header_article",binding.ivBeritaJermanPortugal.getDrawable().getConstantState().toString());
@@ -203,7 +203,7 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.lainnyaBeritaWismaAtlet.setOnClickListener(view -> {
+        binding.LLBeritaWismaAtlet.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvJudulLainnyaWismaAtlet.getText().toString());
             bundle.putString("header_article",binding.ivBeritaWismaAtlet.getDrawable().getConstantState().toString());
@@ -219,7 +219,7 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.lainnyaBeritaRossi.setOnClickListener(view -> {
+        binding.LLBeritaRossi.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvJudulLainnyaRossi.getText().toString());
             bundle.putString("header_article",binding.ivBeritaRossi.getDrawable().getConstantState().toString());
@@ -234,10 +234,10 @@ public class MainFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
 
-        });binding.lainnyaBeritaSeohyun.setOnClickListener(view -> {
+        });binding.LLBeritaSeohyun.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
-            bundle.putString("txt_judul", binding.tvJudulLainnyaSeohyun.getText().toString());
-            bundle.putString("header_article",binding.ivBeritaSoehyun.getDrawable().getConstantState().toString());
+            bundle.putString("txt_judul", binding.tvBookmarkContent1.getText().toString());
+            bundle.putString("header_article",binding.ivBookmarkContent1.getDrawable().getConstantState().toString());
             bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark1));
             bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_seohyun));
             bundle.putString("txt_date",getResources().getString(R.string.date_seohyun));

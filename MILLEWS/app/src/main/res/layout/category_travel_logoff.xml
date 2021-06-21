@@ -137,13 +137,14 @@
                     android:textSize="17sp" />
 
                 <TextView
-                    android:id="@+id/tv_gayaHidup"
+                    android:id="@+id/tv_gayaHidup3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
                     android:text="@string/gayaHidup"
                     android:textColor="#FFFFFF"
                     android:textSize="17sp" />
@@ -154,7 +155,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="589dp">
+            android:layout_height="700dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
