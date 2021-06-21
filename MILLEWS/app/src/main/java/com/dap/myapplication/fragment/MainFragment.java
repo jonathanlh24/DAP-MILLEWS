@@ -53,6 +53,66 @@ public class MainFragment extends Fragment {
             Intent intent = new Intent(getActivity(), LoginActivity.class);
             startActivity(intent);
         });
+        binding.tvHome.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            MainFragment mainFragment = MainFragment.newInstance();
+            mainFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, mainFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.tvTravel.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            CategoryTravelFragment categoryTravelFragment = CategoryTravelFragment.newInstance();
+            categoryTravelFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, categoryTravelFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.tvInternational.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            CategoryInternationalFragment categoryInternationalFragment = CategoryInternationalFragment.newInstance();
+            categoryInternationalFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, categoryInternationalFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.tvSport.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            CategorySportFragment categorySportFragment = CategorySportFragment.newInstance();
+            categorySportFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, categorySportFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.tvTechonlogy.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            CategoryTeknologiFragment categoryTeknologiFragment = CategoryTeknologiFragment.newInstance();
+            categoryTeknologiFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, categoryTeknologiFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.tvGayaHidup.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            CategoryLifestyleFragment categoryLifestyleFragment = CategoryLifestyleFragment.newInstance();
+            categoryLifestyleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, categoryLifestyleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
         binding.ivMainContentPeristiwaBersejarah.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvMainContent1.getText().toString());
@@ -178,7 +238,7 @@ public class MainFragment extends Fragment {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvJudulLainnyaSeohyun.getText().toString());
             bundle.putString("header_article",binding.ivBeritaSoehyun.getDrawable().getConstantState().toString());
-            bundle.putString("txt_isi",getResources().getString(R.string.bookmark_content_2));
+            bundle.putString("txt_isi",getResources().getString(R.string.isiBookmark1));
             bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_seohyun));
             bundle.putString("txt_date",getResources().getString(R.string.date_seohyun));
             ArticleFragment articleFragment = ArticleFragment.newInstance();

@@ -52,7 +52,7 @@
                 android:background="@drawable/custom_input"
                 android:drawableStart="@drawable/email_icon"
                 android:ems="10"
-                android:inputTypxxe="textPersonName"
+                android:inputType="textPersonName"
                 android:paddingStart="10sp"
                 android:text="jonathanlh@gmail.com "
                 android:textAlignment="viewEnd"

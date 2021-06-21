@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -32,34 +33,25 @@
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
-                android:id="@+id/btn_login"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/tv_profile"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="horizontal">
+                android:layout_marginLeft="60dp"
+                android:text="@string/main_profile"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
-                <TextView
-                    android:id="@+id/tv_profile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="60dp"
-                    android:text="@string/main_profile"
-                    android:textAlignment="viewEnd"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    tools:ignore="RtlCompat" />
-
-                <ImageView
-                    android:id="@+id/iv_profile_icon"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/profile" />
-            </LinearLayout>
-
+            <ImageView
+                android:id="@+id/iv_profile_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/profile" />
         </LinearLayout>
 
         <HorizontalScrollView
@@ -78,6 +70,7 @@
                     android:id="@+id/tv_home"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/home"
@@ -91,6 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/travel"
@@ -102,6 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/international"
@@ -113,6 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/sport"
@@ -124,6 +120,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/technology"
@@ -135,6 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
                     android:gravity="center|center_vertical"
                     android:paddingStart="15dp"
                     android:text="@string/gayaHidup"
@@ -154,7 +152,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/iv_main_content_peristiwa_bersejarah"
+                    android:id="@+id/iv_main_content"
                     android:layout_width="match_parent"
                     android:layout_height="228dp"
                     android:padding="10dp"
@@ -243,8 +241,7 @@
                     app:layout_constraintBottom_toTopOf="@id/LL_BeritaUtama"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/iv_main_content_peristiwa_bersejarah">
-                </LinearLayout>
+                    app:layout_constraintTop_toBottomOf="@id/iv_main_content"></LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/LL_BeritaUtama"
@@ -254,7 +251,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/iv_main_content_peristiwa_bersejarah">
+                    app:layout_constraintTop_toBottomOf="@+id/iv_main_content">
 
                     <TextView
                         android:id="@+id/tv_beritaUtama"
@@ -357,9 +354,8 @@
 
                     <LinearLayout
                         android:id="@+id/LL_BeritaLainnya"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_width="413dp"
+                        android:layout_height="552dp"
                         android:orientation="vertical"
                         tools:layout_constraintTop_toTopOf="parent">
 
@@ -381,13 +377,13 @@
                             android:orientation="vertical">
 
                             <LinearLayout
-                                android:id="@+id/lainnya_beritaIkanCoelacanth"
+                                android:id="@+id/LL_beritaIkanCoelacanth"
                                 android:layout_width="match_parent"
                                 android:layout_height="97dp"
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:id="@+id/iv_ikanCoelacanth"
+                                    android:id="@+id/imageView"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
                                     android:layout_marginLeft="10dp"
@@ -400,7 +396,7 @@
                                     android:orientation="vertical">
 
                                     <TextView
-                                        android:id="@+id/tv_judulLainnya_ikanCoelacanth"
+                                        android:id="@+id/textView6"
                                         android:layout_width="match_parent"
                                         android:layout_height="58dp"
                                         android:paddingTop="2dp"
@@ -412,7 +408,7 @@
                                         app:layout_constraintEnd_toEndOf="parent" />
 
                                     <TextView
-                                        android:id="@+id/tv_timeLainnya_ikanCoelacanth"
+                                        android:id="@+id/textView7"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:text="@string/main_time_ikanCoelacanth"
@@ -423,7 +419,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:id="@+id/lainnya_beritaJermanPortugal"
+                                android:id="@+id/LL_beritaJermanPortugal"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
@@ -467,7 +463,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:id="@+id/lainnya_beritaWismaAtlet"
+                                android:id="@+id/LL_beritaWismaAtlet"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
@@ -511,7 +507,7 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:id="@+id/lainnya_beritaRossi"
+                                android:id="@+id/LL_beritaRossi"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
@@ -531,7 +527,7 @@
                                     android:orientation="vertical">
 
                                     <TextView
-                                        android:id="@+id/tv_judulLainnyaRossi"
+                                        android:id="@+id/judulLainnyaRossi"
                                         android:layout_width="match_parent"
                                         android:layout_height="58dp"
                                         android:paddingTop="2dp"
@@ -554,14 +550,14 @@
                             </LinearLayout>
 
                             <LinearLayout
-                                android:id="@+id/lainnya_beritaSeohyun"
+                                android:id="@+id/LL_beritaSeohyun"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="10dp"
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:id="@+id/iv_berita_soehyun"
+                                    android:id="@+id/iv_bookmark_content_1"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
                                     android:layout_marginLeft="10dp"
@@ -574,7 +570,7 @@
                                     android:orientation="vertical">
 
                                     <TextView
-                                        android:id="@+id/tv_judulLainnya_seohyun"
+                                        android:id="@+id/tv_bookmark_content_1"
                                         android:layout_width="match_parent"
                                         android:layout_height="58dp"
                                         android:paddingTop="2dp"
@@ -586,7 +582,7 @@
                                         app:layout_constraintEnd_toEndOf="parent" />
 
                                     <TextView
-                                        android:id="@+id/tv_timeLainnya_seohyun"
+                                        android:id="@+id/tv_bookmark_time_1"
                                         android:layout_width="match_parent"
                                         android:layout_height="21dp"
                                         android:text="@string/bookmark_time_2"
