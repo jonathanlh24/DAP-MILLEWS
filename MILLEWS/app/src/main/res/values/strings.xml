@@ -46,7 +46,7 @@
     <string name="main_category_1">Olahraga</string>
     <string name="travel_category_1">Travel</string>
     <string name="main_time_1">| 19 Menit Lalu</string>
-    <string name="main_time_alt">Rabu, 24/03/2021 12:08 WIB</string>
+    <string name="main_time_alt">Sabtu, 19/06/2021 22:53 WIB</string>
     <string name="bookmark_content_1">Bocoran Spesifikasi iPhone 13 Diduga Meluncur Tahun Ini</string>
     <string name="bookmark_content_2">Seohyun Siap Bintangi Film Romantis Bareng Lee Jun-young</string>
     <string name="bookmark_content_3">Detik-detik Kiper Sevilla Bobol Gawang Valladolid</string>
@@ -78,7 +78,6 @@
     <string name="main_time_mentawai">| 1 Hari Lalu</string>
     <string name="berita_lainnya">Berita Lainnya</string>
     <string name="utama_content_emas">Ahli Jelaskan Teori Munculnya Emas di Pantai Maluku</string>
-    <string name="textberita">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
     <string name="gemerlap_WismaAtlet">Gemerlap Lampu RS Wisma Atlet dan Hilir Mudik Pasien Covid-19</string>
     <string name="main_time_gemerlap_WismaAtlet">Sabtu, 19/06/2021 20:47 WIB</string>
     <string name="jerman_portugal">7 Alasan Jerman Bisa Kalahkan Portugal di Euro 2020</string>
@@ -135,6 +134,101 @@
     <string name="gayaHidup_kencan_pertama">5 Cara agar Kencan Pertama Berkesan dan Sukses</string>
     <string name="time_kencan_pertama">| 14 Jam Lalu</string>
     <string name="time_pengganti_micin">| 23 Jam Lalu</string>
+
+    // HOME
+    <string name="isiArticlePenemuanBersejarahDunia">
+        Jakarta, MILLEWS - Beragam peristiwa bersejarah di dunia terjadi pada abad ke-20. Dalam kurun waktu 100 tahun terakhir, tercipta sejumlah peristiwa penting yang memberikan dampak besar pada kehidupan manusia saat ini.\n\n
+        Mulai dari penemuan teknologi, peperangan, hingga wabah penyakit terjadi dalam rentang tahun 1900-1999. CNNIndonesia.com merangkum sejumlah peristiwa bersejarah di dunia pada abad ke-20.\n\n
+        Berikut peristiwa sejarah dunia abad ke-20.\n\n
+        \t 1. Penemuan penisilin\n
+        Pada 1929, seorang ahli bakteriologi dari Rumah Sakit St Mary London, Alexander Fleming menerbitkan sebuah makalah tentang bahan kimia yang diberi nama Penicillin atau penisilin.\n\n
+        Dalam tulisannya, Fleming menyebut penisilin berfungsi mencegah pertumbuhan bakteri. Penemuan Fleming kemudian dikembangkan oleh Howard Florey dan Ernst Chain pada 1938.\n\n
+        Pengembangan dari Howard dan Ernst ini mendobrak dunia medis dengan pengenalan antibiotik untuk tubuh. Penemuan ini diakui sebagai salah satu yang terbesar dan memajukan dunia medis. Antibiotik hingga saat ini terus digunakan dalam pengobatan.\n\n
+        Atas jasanya Fleming, Florey, dan Chain meraih penghargaan Nobel pada 1945.\n\n
+        \t 2. Perang Dunia II\n
+        Perang Dunia II adalah perang besar yang melibatkan negara-negara di benua Amerika, Asia, dan Eropa pada 1939-1945. Peperangan ini menewaskan jutaan orang di seluruh dunia termasuk peristiwa Holocaust. Holocaust adalah pembantaian enam juta orang Yahudi selama Perang Dunia II yang dipimpin oleh Adolf Hitler.\n\n
+        Perang Dunia II mengubah tatanan dunia. Setelah peristiwa ini, lahir pula organisasi internasional Perserikatan Bangsa-Bangsa (PBB).\n\n
+        \t 3. Penemuan kartu kredit\n
+        Penemuan kartu kredit berhasil memberikan gebrakan baru dalam cara pembayaran di dunia. Ide pembayaran dalam bentuk kartu yang bisa digunakan di berbagai lokasi ini ditemukan pertama kali pada 1950.\n\n
+        Konsep kartu kredit saat itu masih berupa sistem langganan dengan toko tertentu menggunakan kartu berbahan kertas atau karton.\n\n
+        Perusahaan karut kredit pertama adalah Diners Club yang didirikan pada 1950 dengan 200 pengguna dan berlaku di 14 restoran di New York, Amerika Serikat.\n\n
+        \t 4. Penemuan laser dan CT scan\n
+        Albert Einstein telah membahas sistem proses amplifikasi cahaya oleh emisi radiasi pada 1917. Namun, baru pada 1960 ilmuwan mampu mengembangkan konsep tersebut dengan menjalankan fungsi laser untuk pertama kalinya.\n\n
+        Dalam kehidupan sehari-hari laser banyak digunakan dalam keperluan medis, serat optik, pemutar CD, deteksi sidik jari, dan pemindaian barcode.\n\n
+        Sepuluh tahun berselang, Sir Godfrey Hounsfield menemukan Computerized Tomography Scanner (CT Scan). Alat ini menggunakan sinar X dan pencitraan komputer untuk menciptakan gambaran penampang tubuh.\n\n
+        Penemuan ini mengantarkan era baru dalam dunia kedokteran dan membantu para dokter membuat diagnosis yang lebih tepat.\n\n
+        \t 5. Penemuan kamera digital\n
+        Kamera digital pertama di dunia ditemukan oleh Steven Sassoon pada 1975. Sassoon adalah seorang insinyur di Eastman Kodak.\n\n
+        Penemuan Sassoon menciptakan banyak penemuan baru lainnya dalam dunia kamera. Penemuan kamera digital ini membuat banyak aspek kehidupan ikut berubah hingga saat ini.\n\n
+        Ironisnya, sebagai penemu dan pencipta kamera digital, Kodak justru kalah bersaing dan bangkrut pada 2012 lalu.\n\n
+        \t 6. Epidemi HIV/AIDS\n
+        HIV/AIDS merupakan salah satu epidemi penyakit terbesar di dunia. Kasus HIV/AIDS pertama kali ditemukan pada 1981. Pusat Pengendalian dan Pencegahan Penyakit Amerika Serikat (CDC) melaporkan virus baru yang menjangkiti lima pria homoseksual di Los Angeles.\n\n
+        Beberapa bulan kemudian, kasus tersebut semakin banyak ditemukan di seluruh AS. Pada 1982, virus itu diidentifikasi sebagai Human Immunodeficiency Virus (HIV).\n\n
+        Dari AS, virus itu terus berkembang ke seluruh dunia. Hingga saat ini, para ahli terus berusaha menemukan obat untuk HIV. Yang terbaru, para ahli menemukan obat antiretroviral untuk mencegah virus berkembang dan menghancurkan sel tubuh.\n\n
+        \t 7. Penemuan alamat situs WWW\n
+        Alamat situs WWW atau website ditemukan pada Maret 1989 oleh Tim Berners-lee, ahli perangkat lunak yang bekerja di Laboratorium Fisika Partikel Eropa di Jenewa, Swiss. Berners menulis makalah tentang informasi sistem manajemen yang menjadi cikal bakal landasan web di seluruh dunia.\n\n
+        Pada 1990, Berners membagi konsep tersebut menjadi tiga bagian yakni HTML (HyperText Markup Language), URL (Uniform Resource Identifier), dan HTTP (Hypertext Transfer Protocol).\n\n
+        Penemuan web ini mengubah cara manusia berkomunikasi dan mendapatkan informasi hingga saat ini. Web juga menjadi alat komunikasi yang tumbuh paling cepat sepanjang sejarah media massa.
+    </string>
+
+    <string name="isiArticleIkanCoelacanth">
+        Jakarta, MILLEWS - Ahli menyimpulkan bahwa Coelacanth, ikan laut raksasa yang sudah ada sejak zaman dinosaurus hingga sekarang dapat hidup selama 100 tahun. Selain itu ahli juga menemukan hal baru lainnya, yaitu betina dapat hamil selama lima tahun.\n\n
+        Coelacanth yang kerap disebut fosil hidup telah ada selama 400 juta tahun. Awalnya ikan ini dianggap punah sebelum ditemukan dalam kondisi hidup di lepas pantai Afrika Selatan pada 1938.\n\n
+        Ilmuwan tadinya meyakini Coelacanth hidup sekitar 20 tahun. Namun dalam riset yang diterbitkan di Current Biology menyebut ikan ini bisa hidup selama seabad jika dihitung menggunakan teknik standar penanggalan ikan komersial.\n\n
+        Ahli menggunakan spesimen Coelacanth yang sudah mati untuk menentukan usianya, metode yang dipakai memanfaatkan cahaya yang terpolarisasi. Salah satu penulis dalam studi, Bruno Ernande, mengatakan, cahaya terpolarisasi mengungkapkan 5 garis kecil yang tadinya tidak terlihat untuk tiap garis besar buat menentukan umur.\n\n
+        Kemudian peneliti menyimpulkan garis lebih kecil berkorelasi lebih baik dengan satu tahun usia Coelacanth. Ini menunjukkan spesimen tertua berusia 84 tahun.\n\n
+        Teknik ini juga digunakan untuk mempelajari dua embrio Coelacanth. Embrio terbesar berusia 5 tahun, sedangkan embrio lain berusia 9 tahun.\n\n
+        Ernande berkata diperkirakan kehamilan Coelacanth berlangsung setidaknya 5 tahun dengan kelahiran hidup.\n\n
+        Dia menambahkan Coelacanth yang merupakan nokturnal menua dengan lambat seperti penghuni laut lain misal hiu dan pari.\n\n
+        Ikan betina tidak mencapai kematangan seksual sampai akhir usia 50-an. Sedangkan yang jantan matang secara seksual di usia 40-69 tahun.\n\n
+        \"Mereka mungkin telah mengembangkan sejarah kehidupan yang serupa karena mereka berbagi habitat dengan tipe yang sama,\" ujar Ernande mengutip dari AP.
+    </string>
+
+    <string name="isiArticleJermanVSPortugal">
+        Jakarta, MILLEWS - Portugal vs Jerman menjadi pertandingan akbar di fase grup Euro 2020 (Euro 2021). Kedua kesebelasan punya kans meraih kemenangan, dan berikut alasan Die Mannschaft bisa merontokkan Selecao das Quinas.\n\n
+        Grup F Euro 2020 sudah sejak lama dipantau menjadi arena pertandingan tim-tim elite lantaran keberadaan Portugal, Prancis, dan Jerman. Hungaria pun tak bisa dianggap enteng dan telah membuktikan mereka bukan tim mentah dalam laga pertama.\n\n
+        Setelah kemenangan atas Hungaria di matchday pertama, Portugal akan menghadapi partai yang lebih berat. Sementara bagi Jerman, duel melawan Portugal adalah kesempatan memperbaiki citra sebagai tim kuat Benua Biru setelah dikandaskan Prancis.\n\n
+        Berikut7 alasan Jerman bisa mengalahkan Portugal di laga fase grup Euro 2020:\n\n
+        \t 1. Ronaldo vs Neuer\n
+        Cristiano Ronaldo adalah salah satu pemain terbaik dunia. Ambisi dan gairah berkompetisi yang tinggi membuatnya tetap terpandang meski tak lagi muda. Dua gol ke gawang Hungaria membuatnya mencatatkan rekor sebagai pencetak gol terbanyak sepanjang masa di ajang Piala Eropa.\n\n
+        Masalah muncul ketika Ronaldo menghadapi gawang Jerman yang dikawal Manuel Neuer. Kiper senior ini punya pengalaman bagus jika bertemu Ronaldo di level internasional.\n\n
+        Selain itu Ronaldo juga tak pernah mencetak gol ke gawang Jerman, yang dikawal siapa pun, dalam empat laga terakhir.\n\n
+        \t 2. Thomas Muller dan Sisa Skuad Piala Dunia 2014\n
+        Pemain senior timnas Jerman ini merupakan salah satu pemilik caps terbanyak. Bersama dengan Toni Kroos, Muller sudah bermain 103 kali di timnas. Namun gol Muller lebih banyak dan menjadi yang tersubur di antara pemain-pemain lain.\n\n
+        Dari 39 gol yang pernah dicetak Muller ketika mengenakan jersey timnas Jerman, tiga diantaranya pernah disarangkan ke gawang Portugal di Piala Dunia 2014 dalam kemenangan telak 4-0.\n\n
+        Selain Muller masih ada Neuer, Kross, dan Mats Hummels di antara sisa skuad Piala Dunia 2014 yang terdaftar membela Jerman saat ini. Pertemuan tujuh tahun lalu tersebut merupakan duel terakhir Portugal vs Jerman.\n\n
+        \t 3. Memori Final Liga Champions\n
+        Duel pemain-pemain Portugal dan Jerman sebelumnya terjadi di laga final Liga Champions ketika Chelsea mengalahkan Manchester City.\n\n
+        Di kubu The Blues terdapat Antonio Rudiger, Kai Havertz, dan Timo Werner. Sementara Ruben Dias dan Bernardo Silva memperkuat The Citizens.\n\n
+        \t 4. Lini Tengah yang Kuat\n
+        Kuartet Kroos, Ilkay Gundogan, Robin Gosens dan Joshua Kimmich menjadi pilihan pelatih Joachim Low di pertandingan pertama. Sementara di pertandingan kedua ada opsi memainkan Leon Goretzka.\n\n
+        Kemampuan fisik dan kinerja Goretzka bakal mendukung daya dobrak Gundogan sekaligus visi bermain Kroos. Pemain Bayern Munchen itu bisa menjadi pemutus serangan Bruno Fernandes dan kawan-kawan.\n\n
+        \t 5. Sejarah\n
+        Jerman memiliki catatan head to head yang lebih bagus ketimbang Portugal. Dari 18 laga, Jerman baru kalah tiga kali. Kemenangan terakhir Portugal terjadi pada Piala Eropa 2000.\n\n
+        Setelah itu dalam empat pertemuan, yang kebetulan terjadi di Piala Dunia dan Piala Eropa, sang pemilik tiga trofi Henry Delaunay selalu tampil jadi pemenang.\n\n
+        \t 6. Serangan Balik\n
+        Ketika menghadapi Hungaria, yang mengandalkan serangan balik, lini pertahanan Portugal cukup kerepotan. Bahkan gawang Rui Patricio bobol, namun kemudian gol Hungaria dianulir karena offside.\n\n
+        Kendati memiliki lini pertahanan yang digalang pemain senior Pepe dan bek top Ruben Dias, komunikasi di lini belakang Portugal masih belum sempurna. Akan lebih buruk seandainya gelandang-gelandang Portugal lebih sibuk membongkar pertahanan lawan dan melupakan tanggung jawab dalam membantu pertahanan.\n\n
+        \t 7. Ronaldo\n
+        Bak dua sisi mata uang, Ronaldo bisa menghadirkan suka juga malapetaka. Sang megabintang dikenal begitu ekspresif ketika menampilkan gestur kecewa, seperti yang ditampilkan ketika Diogo Jota gagal mengeksekusi peluang saat melawan Hungaria.\n\n
+        Dengan kondisi seperti itu, pemain-pemain Portugal bisa saja diliputi rasa bingung dan waswas di atas lapangan ketika membuat keputusan apakah harus terus menerus memberi bola kepada Ronaldo atau berkreasi tanpa sang kapten.
+    </string>
+
+    <string name="isiArticleGemerlapLampuWismaAtlet">
+        Jakarta, MILLEWS - Lampu-lampu ruangan di Rumah Sakit Darurat Covid-19 (RSDC) Wisma Atlet, Kemayoran, Jakarta menyala di setiap lantainya pada Sabtu (19/6) malam. Gemerlap cahaya itu hampir merata di seluruh tower RSD Wisma Atlet.\n\n
+        Pantauan CNNIndonesia.com, lampu di tower 1 hingga 7 RSD Wisma Atlet sudah mulai menyala sekitar pukul 17.30 WIB. Lampu-lampu itu kontras di balik temaramnya malam di Jakarta.\n\n
+        Hal itu kemungkinan menunjukkan bahwa RSD Wisma Atlet tengah bersiaga penuh menangani Covid-19. Terlebih lagi, kondisi penularan Covid-19 di Jakarta belakangan ini cukup tinggi.\n\n
+        Data Kementerian Kesehatan mencatat bahwa Provinsi DKI Jakarta menjadi provinsi dengan kasus harian Covid-19 terbanyak ketimbang provinsi lain. Data per Sabtu (19/6), jumlah infeksi Covid-19 di DKI Jakarta kembali mencetak rekor dengan tambahan 4.895 kasus baru.\n\n
+        Kasus penularan yang tinggi belakangan ini berdampak pula pada lonjakan okupasi pasien yang di rawat di RSD Wisma Atlet.\n\n
+        Data per Sabtu (19/6), sisa tempat tidur di RSD Wisma Atlet untuk pasien Covid-19 hanya tinggal 1.364 buah. RSD Wisma Atlet sendiri memiliki kapasitas total 7.394 tempat tidur di sejumlah tower. Artinya, saat ini sudah terisi 6.030 kapasitas oleh pasien Covid-19.\n\n
+        Di sisi lain, para personel yang bertugas di RSD Wisma Atlet terlihat sibuk meski hari telah malam.\n\n
+        Mobil ambulans, bus sekolah maupun mobil pribadi yang membawa pasien positif Covid-19 terus berdatangan silih berganti memasuki pos penjagaan.\n\n
+        Para personel TNI yang berjaga di pos 6 masih terlihat sibuk mendata sejumlah kendaraan yang tiba membawa pasien. Meski hilir mudik ambulans dan kendaraan, tak ada antrean berarti di Pos 6 Wisma Atlet.\n\n
+        Tak hanya itu, para personel khusus yang bertugas penerima barang yang dipesan pasien dari luar juga terus bersiaga.\n\n
+        Mereka dengan cekatan mendata dan membawa barang-barang yang dikirimkan dari jasa pengantar untuk di bawa masuk ke RSD agar dapat diterima oleh pasien.\n\n
+        Koordinator Humas RSDC Wisma Atlet, Kemayoran, Jakarta Letkol TNI Laut M. Arifin mengatakan lampu-lampu di seluruh ruangan Wisma Atlet akan dinyalakan tiap harinya. Tak ada momentum khusus sehingga lampu-lampu tersebut dinyalakan pada malam harinya.\n\n
+        \"Tiap hari menyala sejak dulu. Ada atau tidak ada pasien tetap menyala,\" kata Arifin kepada CNNIndonesia.com, Sabtu (19/6).
+    </string>
 
     <string name="isiArticleRossi">
         Jakarta || MILLEWS - Pembalap Petronas Yamaha, Valentino Rossi optimistis bisa bersaing di MotoGP Qatar akhir pekan ini.\n\n
@@ -484,6 +578,16 @@
         Masuk ke lap 52, Verstappen bisa menyusul Hamilton dengan gemilang dan tak lagi bisa teradang untuk terus memperlebar jarak. Hamilton yang memang kalah dalam hal kecepatan tak mampu memberikan perlawanan balik pada Verstappen.\n\n
         Verstappen langsung melesat dan unggul lebih dari dua detik atas Hamilton di waktu tersisa.
     </string>
+
+    <string name="isiArticleMarcMarquez_menangis_menang">
+        Jakarta, MILLEWS - Marc Marquez tidak bisa menahan tangis usai menang MotoGP Jerman 2021 di Sirkuit Sachsenring, Minggu (20/6).\n\n
+        Marquez tampil luar biasa di MotoGP Jerman 2021 setelah mengalahkan pembalap KTM Miguel Oliveira. Ini adalah kemenangan pertama Marquez di MotoGP sejak menang MotoGP Valexncia pada 17 November 2019.\n\n
+        Dalam wawancara usai balapan Marquez tidak bisa menahan tangis. Penuh emosi, Marquez mengeluarkan air mata dan menyebut menang MotoGP Jerman 2021 sangat penting baginya.\n\n
+        \"Ya, ini salah satu momen dan kemenangan paling penting dalam karier saya. Memasuki akhir pekan ini saya tahu ada peluang di MotoGP Jerman, meski sulit secara mental setelah 3 kali beruntun gagal finis,\" ujar Marquez.\n\n
+        Meski menang lebih dari 1 detik atas Oliveira, Marquez mengaku sulit fokus saat menjalani balapan MotoGP Jerman. The Baby Alien teringat masa-masa sulit untuk bangkit dari cedera patah tulang humerus yang membuatnya absen panjang musim lalu. Cedera itu juga sempat mengancam karier Marquez sebagai pembalap di MotoGP.\n\n
+        \"Sebelum balapan saya yakin bisa meraih podium, peluang meraih kemenangan cukup rendah meski peluangnya ada. Setelah hujan turun, saya rasa ini adalah balapan milik saya, saya kemudian ambil risiko lebih besar,\" ucap Marquez.\n\n
+        \"Di paruh kedua balapan saya harus melawan Oliveira. Sulit untuk bisa fokus karena banyak memori buruk yang saya pikirkan, tapi pada akhirnya kami mampu melakukannya,\" sambung Marquez.
+    </string>
     
     <string name="isiArticleKBD">
         Jakarta, MILLEWS - Kevin De Bruyne menghindari menyundul bola dalam latihan bersama timnas Belgia di Euro 2020 (Euro 2021).\n\n
@@ -693,4 +797,33 @@
         \t 7. Bawang putih\n
         Bumbu atau rempah yang biasa ditemui bisa dijadikan pengganti micin, termasuk bawang putih, rosemary, merica, kunyit, dan jintan. Penggunaannya akan tergantung masakan. Kombinasi masakan dan rempah pun akan mendatangkan kehangatan sekaligus manfaat kesehatan tambahan.
     </string>
+
+    // BERITA TAG
+    <string name="beritatag_peristiwa_bersejarah">Beragam peristiwa bersejarah di dunia terjadi pada abad ke-20 mulai dari penemuan, peperangan, hingga wabah penyakit.</string>
+    <string name="beritatag_mie">Dalam kolaborasi barunya, rumah mode Maison Margiela dan Tommy Cash membuat sandal roti dan mi instan mewah \'rasa haute couture.\'</string>
+    <string name="beritatag_emasMaluku">Ilustrasi tempat penemuan emas di pesisir pantai Maluku Tengah</string>
+    <string name="beritatag_dewaKipas">Dewa Kipas kalah telak dari Irene Kharisma Sukandar.</string>
+    <string name="beritatag_ikanCoelacanth">Coelacanth, ikan purba yang sudah ada selama 400 juta tahun diketahui dapat hidup hingga 100 tahun.</string>
+    <string name="beritatag_JermanVSPortugal">Timnas Jerman memiliki kedalaman skuad yang apik.</string>
+    <string name="beritatag_gemerlapWismaAtlet">Lampu ruangan di RS Wisma Atlet Kemayoran kontras di balik gelap langit Jakarta pada Sabtu (19/6) malam. Kasus Covid-19 di ibu kota masih terus melonjak.</string>
+    <string name="beritatag_rossi">Valentino Rossi siap menghadapi seri pertama MotoGP Qatar. (Dorna Sports)</string>
+    <string name="beritatag_seohyun">Seohyun akan bemain bareng Lee Jun-young.</string>
+    <string name="beritatag_belanda">Ada banyak tempat wisata di Belanda yang wajib dikunjungi, mulai dari pantai, danau, sampai museum</string>
+    <string name="beritatag_Malang">Ada banyak tempat wisata di Malang yang wajib dikunjungi, mulai dari pantai, danau, sampai museum</string>
+    <string name="beritatag_selancarMentawai">Pantai berpasir putih di Kepulauan Mentawai, Sumatera Barat</string>
+    <string name="beritatag_nakhodaItalia">Jasad kapten kapal Italia terdampar berminggu-minggu di Jakarta karena virus corona. Tak ada yang mau menerima jenazahnya karena Covid-19.(Foto ilustrasi kapal kargo: ANTARA FOTO/Wahyu Putro A)</string>
+    <string name="beritatag_unesco">Badan organisasi PBB ini dibentuk untuk mempromosikan kedamaian, keadilan, dan keamanan internasional. Simak sejarah berdirinya UNESCO dan sektor yang dibidangi. (Foto: AFP PHOTO / JEAN-PIERRE MULLER)</string>
+    <string name="beritatag_covidBrazil">Kasus kematian akibat Covid-19 di Brasil terus melonjak. Pada Sabtu (19/6), kematian karena Covid-19 di Brasil menembus 500 ribu jiwa.(Foto: AP/Eraldo Peres)</string>
+    <string name="beritatag_AS_kritik_pemilu_Iran">Pemilu Iran. (via REUTERS/WANA NEWS AGENCY)</string>
+    <string name="beritatag_pemungutansuaraIran">Rakyat Iran mengikuti Pemilu untuk memilih presiden baru. (VIA REUTERS/WANA NEWS AGENCY)</string>
+    <string name="beritatag_Italia2020_groupA">Timnas Italia meraih hasil sempurna di babak penyisihan Grup A Euro 2020. (AP/Alessandra Tarantino)</string>
+    <string name="beritatag_belgia_harus_menang_lawan_finlandia">Thibat Courtois mengatakan Belgia wajib menang lawan Finlandia di Euro 2020. (AP/Francisco Seco)</string>
+    <string name="beritatag_maxVerstappenF1">Max Verstappen mengalahkan Lewis Hamilton di F1 GP Prancis. (AP/Francois Mori)</string>
+    <string name="beritatag_MarcMarquez_menangis_menang">Marc Marquez menangis usai menang MotoGP Jerman 2021. (REUTERS/MATTHIAS RIETSCHEL)</string>
+    <string name="beritatag_KDB">Kevin De Bruyne memilih menghindari sundulan dalam latihan bersama timnas Belgia. (REUTERS/HANNAH MCKAY)</string>
+    <string name="beritatag_yoga">Ilustrasi. Hari Yoga Internasional 2021 menyoroti pentingnya menjaga kesehatan mental selama pandemi Covid-19. (istockphoto/miljko)</string>
+    <string name="beritatag_pasangRing_setelah_serangan_jantung">Ilustrasi. Serangan jantung yang terjadi setelah pasang ring jantung bisa terjadi karena beberapa faktor risiko. (Istockphoto/Tharakorn)</string>
+    <string name="beritatag_vitD">Vitamin D merupakan salah nutrisi penting yang dibutuhkan tubuh, apalagi di tengah kasus Covid-19 yang sedang tinggi kembali. (iStockphoto/yulka3ice)</string>
+    <string name="beritatag_kencanPertama">Ilustrasi. Setiap orang pasti ingin kencan pertamanya berkesan. Berikut sejumlah kiat yang bisa Anda lakukan agar kencan pertama berjalan sukses. (Brodie Vissers via StockSnap)</string>
+    <string name="beritatag_pengganti_micin">Ilustrasi. Beberapa bahan alternatif ini, mulai dari kecap hingga bawang putih, memberikan rasa yang tak kalah gurih dari micin. (Anelka/Pixabay)</string>
 </resources>

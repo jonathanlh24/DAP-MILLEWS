@@ -55,7 +55,7 @@ public class SignUpFragment extends Fragment {
         signupFragmentBinding.radioMale.setOnCheckedChangeListener((buttonView, isChecked) -> gender = "male");
         signupFragmentBinding.radioFemale.setOnCheckedChangeListener((buttonView, isChecked) -> gender = "female");
 
-        signupFragmentBinding.btnSignIn.setOnClickListener(view -> {
+        signupFragmentBinding.btnSignUp.setOnClickListener(view -> {
             String name = signupFragmentBinding.etNameSU.getText().toString();
             String email = signupFragmentBinding.etEmailSU.getText().toString();
             String password = signupFragmentBinding.etPasswordSU.getText().toString();

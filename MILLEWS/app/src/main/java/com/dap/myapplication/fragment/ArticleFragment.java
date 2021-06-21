@@ -63,7 +63,7 @@ public class ArticleFragment extends Fragment {
                 binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.emas));
             }
             else{
-                binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.rossi));
+                binding.headerArticle.setImageDrawable(getResources().getDrawable(R.drawable.rossi_));
             }
         }
     }
