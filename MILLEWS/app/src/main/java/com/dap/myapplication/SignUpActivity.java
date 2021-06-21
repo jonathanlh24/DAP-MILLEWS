@@ -17,7 +17,7 @@ public class SignUpActivity extends AppCompatActivity {
         binding = SignUpPageBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.btnSignIn.setOnClickListener(view -> {
+        binding.btnSignUp.setOnClickListener(view -> {
             Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
             finish();

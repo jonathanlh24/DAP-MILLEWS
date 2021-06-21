@@ -81,7 +81,7 @@
                     tools:srcCompat="@drawable/rossi_" />
 
                 <TextView
-                    android:id="@+id/tv_beritaTag"
+                    android:id="@+id/txt_beritaTag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -94,13 +94,12 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <me.biubiubiu.justifytext.library.JustifyTextView
+                    <com.codesgood.views.JustifiedTextView
                         android:id="@+id/txt_isi"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
                         android:text="@string/isiArticleRossi"
-                        android:textAlignment="textEnd"
                         android:textColor="@color/black" />
                 </LinearLayout>
 

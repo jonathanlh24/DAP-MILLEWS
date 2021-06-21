@@ -1,0 +1,127 @@
+package com.dap.myapplication.fragment;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.dap.myapplication.LoginActivity;
+import com.dap.myapplication.R;
+import com.dap.myapplication.databinding.CategoryTechnologyLogoffBinding;
+import com.dap.myapplication.databinding.CategoryTravelLogoffBinding;
+import com.dap.myapplication.databinding.MainPageLogoffBinding;
+
+public class CategoryTeknologiFragment extends Fragment {
+
+    private static CategoryTeknologiFragment categoryTeknologiFragment;
+    private CategoryTechnologyLogoffBinding binding;
+
+    private CategoryTeknologiFragment(){
+
+    }
+
+    public static CategoryTeknologiFragment newInstance(){
+        if (categoryTeknologiFragment == null){
+            categoryTeknologiFragment = new CategoryTeknologiFragment();
+        }
+        return categoryTeknologiFragment;
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if(getArguments()!=null){
+            binding.tvProfile.setText("Welcome, "+getArguments().getString("key"));
+        }
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        binding = CategoryTechnologyLogoffBinding.inflate(inflater,container, false);
+        binding.btnLogin.setOnClickListener(view -> {
+            Intent intent = new Intent(getActivity(), LoginActivity.class);
+            startActivity(intent);
+        });
+        binding.ivMainContentTamagochi.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvMainContentTamagochi.getText().toString());
+            bundle.putString("header_article",binding.ivMainContentTamagochi.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleTamagochi));
+            bundle.putString("txt_date",getResources().getString(R.string.main_time_alt));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.beritaTeknologiFiturWAAntarPlatform.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvMainCategoryFiturWaAntarPlatform.getText().toString());
+            bundle.putString("header_article",binding.ivTeknologiFiturWAAntarPlatform.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCallnRingWA));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.beritaTeknologiKecelakaanTesla.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvTeknologiTesla.getText().toString());
+            bundle.putString("header_article",binding.ivTeknologiTesla.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKecelakaanTesla));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.beritaTeknologiCallAndRingWa.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvMainTimeCallAndRingWa.getText().toString());
+            bundle.putString("header_article",binding.ivTeknologiCallAndRingWa.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCallnRingWA));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+        binding.beritaTeknologiKuantum.setOnClickListener(view -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("txt_judul", binding.tvTeknologiKuantum.getText().toString());
+            bundle.putString("header_article",binding.ivTeknologiKunatum.getDrawable().getConstantState().toString());
+            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKuantum));
+            ArticleFragment articleFragment = ArticleFragment.newInstance();
+            articleFragment.setArguments(bundle);
+
+            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.container, articleFragment);
+            transaction.addToBackStack(null);
+            transaction.commit();
+        });
+
+        return binding.getRoot();
+    }
+}
