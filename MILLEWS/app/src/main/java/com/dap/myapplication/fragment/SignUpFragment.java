@@ -105,4 +105,5 @@ public class SignUpFragment extends Fragment {
             startActivity(intent);
         }
     }
+
 }

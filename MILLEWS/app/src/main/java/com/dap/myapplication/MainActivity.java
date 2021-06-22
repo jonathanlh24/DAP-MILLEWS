@@ -16,10 +16,18 @@ public class  MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        binding =  MainPageLogoffBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
 
 
+    }
+    @Override
+    public void onBackPressed() {
+        int count = getSupportFragmentManager().getBackStackEntryCount();
+
+        if(count == 0){
+            super.onBackPressed();
+        }else{
+            getSupportFragmentManager().popBackStackImmediate();
+        }
     }
 
 

@@ -176,22 +176,6 @@ public class CategorySportFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.beritaOlahragaKDB.setOnClickListener(view -> {
-            Bundle bundle = new Bundle();
-            bundle.putString("txt_judul", binding.tvOlahragaKDB.getText().toString());
-            bundle.putString("header_article",binding.ivOlahragaKDB.getDrawable().getConstantState().toString());
-            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleKBD));
-            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_KDB));
-            bundle.putString("txt_date",getResources().getString(R.string.date_KDB));
-            ArticleFragment articleFragment = ArticleFragment.newInstance();
-            articleFragment.setArguments(bundle);
-
-            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, articleFragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
-        });
-
         return binding.getRoot();
     }
 }

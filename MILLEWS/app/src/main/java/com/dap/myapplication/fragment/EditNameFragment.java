@@ -50,11 +50,11 @@ public class EditNameFragment extends Fragment {
         binding = EditNameBinding.inflate(inflater,container, false);
         binding.btnSubmit.setOnClickListener(view ->{
             Bundle bundle = new Bundle();
-            ProfileFragment profileFragment = ProfileFragment.newInstance();
-            profileFragment.setArguments(bundle);
+            EditProfileFragment editProfileFragment = EditProfileFragment.newInstance();
+            editProfileFragment.setArguments(bundle);
 
             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, profileFragment);
+            transaction.replace(R.id.container, editProfileFragment);
             transaction.addToBackStack(null);
             transaction.commit();
         });

@@ -159,7 +159,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="700dp">
 
                 <ImageView
                     android:id="@+id/iv_main_content"
@@ -256,8 +256,8 @@
 
                 <LinearLayout
                     android:id="@+id/LL_BeritaUtama"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="417dp"
+                    android:layout_height="471dp"
                     android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -267,7 +267,7 @@
                     <LinearLayout
                         android:id="@+id/LL_BeritaLainnya"
                         android:layout_width="413dp"
-                        android:layout_height="345dp"
+                        android:layout_height="match_parent"
                         android:orientation="vertical"
                         tools:layout_constraintTop_toTopOf="parent">
 

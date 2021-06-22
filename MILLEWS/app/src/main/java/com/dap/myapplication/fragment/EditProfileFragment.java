@@ -85,16 +85,16 @@ public class EditProfileFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        /*binding.chgPassword.setOnClickListener(view -> {
+        binding.chgPassword.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
-            CategoryInternationalFragment categoryInternationalFragment = CategoryInternationalFragment.newInstance();
-            categoryInternationalFragment.setArguments(bundle);
+            ChgPasswordFragment chgPasswordFragment = ChgPasswordFragment.newInstance();
+            chgPasswordFragment.setArguments(bundle);
 
             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, categoryInternationalFragment);
+            transaction.replace(R.id.container, chgPasswordFragment);
             transaction.addToBackStack(null);
             transaction.commit();
-        });*/
+        });
         return binding.getRoot();
     }
 }

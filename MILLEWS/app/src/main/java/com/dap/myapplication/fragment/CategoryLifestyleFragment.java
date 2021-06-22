@@ -178,21 +178,7 @@ public class CategoryLifestyleFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.beritaGayaHidupPenggantiMicin.setOnClickListener(view -> {
-            Bundle bundle = new Bundle();
-            bundle.putString("txt_judul", binding.tvGayaHidupPenggantiMicin.getText().toString());
-            bundle.putString("header_article",binding.ivGayaHidupPenggantiMicin.getDrawable().getConstantState().toString());
-            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleAlternatifMicin));
-            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_pengganti_micin));
-            bundle.putString("txt_date",getResources().getString(R.string.date_pengganti_micin));
-            ArticleFragment articleFragment = ArticleFragment.newInstance();
-            articleFragment.setArguments(bundle);
 
-            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, articleFragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
-        });
 
         return binding.getRoot();
     }

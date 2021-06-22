@@ -77,7 +77,7 @@
             android:layout_marginTop="50dp"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
                 android:id="@+id/et_nameMyProfile"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
@@ -87,13 +87,12 @@
                 android:drawableEnd="@drawable/edit_icon"
                 android:ems="10"
                 android:gravity="center|right"
-                android:inputType="textPersonName"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="Jonathan Leonardi"
                 android:textSize="14sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/et_editEmail"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
@@ -103,13 +102,12 @@
                 android:drawableEnd="@drawable/edit_icon"
                 android:ems="10"
                 android:gravity="center|right"
-                android:inputType="textPersonName"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="jo******@gmail.com "
                 android:textSize="16sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/et_gender"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
@@ -118,14 +116,13 @@
                 android:drawableEnd="@drawable/edit_icon"
                 android:ems="10"
                 android:gravity="center|right"
-                android:inputType="textPersonName"
                 android:paddingStart="7dp"
                 android:paddingRight="10dp"
                 android:text="Male"
                 android:textSize="16sp"
                 tools:drawableStart="@drawable/gender_icon" />
 
-            <EditText
+            <TextView
                 android:id="@+id/chg_password"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
@@ -134,10 +131,11 @@
                 android:clickable="true"
                 android:drawableEnd="@drawable/to_edit_icon"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:paddingLeft="10sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
                 android:paddingEnd="10sp"
                 android:text="Change Password"
+                android:textColor="#6C6C6C"
                 android:textSize="16sp" />
 
         </LinearLayout>

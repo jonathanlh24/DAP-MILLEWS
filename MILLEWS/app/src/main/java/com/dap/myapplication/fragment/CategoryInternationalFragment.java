@@ -147,21 +147,6 @@ public class CategoryInternationalFragment extends Fragment {
             transaction.addToBackStack(null);
             transaction.commit();
         });
-        binding.beritaInternasionalCovidBrazil.setOnClickListener(view -> {
-            Bundle bundle = new Bundle();
-            bundle.putString("txt_judul", binding.tvInternasionalCovidBrazil.getText().toString());
-            bundle.putString("header_article",binding.ivInternasionalCovidBrazil.getDrawable().getConstantState().toString());
-            bundle.putString("txt_isi",getResources().getString(R.string.isiArticleCovidBrazil));
-            bundle.putString("txt_beritaTag",getResources().getString(R.string.beritatag_covidBrazil));
-            bundle.putString("txt_date",getResources().getString(R.string.date_covidBrazil));
-            ArticleFragment articleFragment = ArticleFragment.newInstance();
-            articleFragment.setArguments(bundle);
-
-            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, articleFragment);
-            transaction.addToBackStack(null);
-            transaction.commit();
-        });
         binding.beritaInternasionalASKritikpemiluIran.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
             bundle.putString("txt_judul", binding.tvInternasionalASKritikPemiluIran.getText().toString());

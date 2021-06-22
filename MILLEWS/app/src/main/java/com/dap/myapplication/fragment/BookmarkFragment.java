@@ -100,4 +100,5 @@ public class BookmarkFragment extends Fragment {
         });
         return binding.getRoot();
     }
+
 }

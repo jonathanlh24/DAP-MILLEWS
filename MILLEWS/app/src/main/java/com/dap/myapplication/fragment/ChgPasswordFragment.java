@@ -13,27 +13,27 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.dap.myapplication.MainActivity;
 import com.dap.myapplication.R;
+import com.dap.myapplication.databinding.EditChangePasswordBinding;
 import com.dap.myapplication.databinding.EditEmailBinding;
-import com.dap.myapplication.databinding.EditGenderBinding;
 import com.dap.myapplication.databinding.EditProfileBinding;
 import com.dap.myapplication.databinding.MyprofileBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class EditGenderFragment extends Fragment {
+public class ChgPasswordFragment extends Fragment {
 
-    private static EditGenderFragment editGenderFragment;
-    private EditGenderBinding binding;
+    private static ChgPasswordFragment chgPasswordFragment;
+    private EditChangePasswordBinding binding;
     private FirebaseAuth mAuth;
 
-    private EditGenderFragment(){
+    private ChgPasswordFragment(){
 
     }
 
-    public static EditGenderFragment newInstance(){
-        if (editGenderFragment == null){
-            editGenderFragment = new EditGenderFragment();
+    public static ChgPasswordFragment newInstance(){
+        if (chgPasswordFragment == null){
+            chgPasswordFragment = new ChgPasswordFragment();
         }
-        return editGenderFragment;
+        return chgPasswordFragment;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class EditGenderFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = EditGenderBinding.inflate(inflater,container, false);
+        binding = EditChangePasswordBinding.inflate(inflater,container, false);
         binding.btnSubmit.setOnClickListener(view ->{
             Bundle bundle = new Bundle();
             EditProfileFragment editProfileFragment = EditProfileFragment.newInstance();
