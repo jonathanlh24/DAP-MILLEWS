@@ -875,4 +875,9 @@
     <string name="date_iphone13">Rabu, 24/03/2021 08:05 WIB</string>
     <string name="editGender">EDIT GENDER</string>
     <string name="tv_genderEditGender">Gender</string>
+    <string name="editChangePassword">Change Password</string>
+    <string name="tv_enterPassword">Enter Password</string>
+    <string name="forgot_password_">Forgot Password ?</string>
+    <string name="tv_enterNewPassword">Enter New Password</string>
+    <string name="tv_convertNewPassword">Verify New Password</string>
 </resources>
