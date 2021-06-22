@@ -873,4 +873,6 @@
     <string name="date_kiperSevilla">Minggu, 21/03/2021 05:54 WIB</string>
     <string name="date_destaEnzy">Sabtu, 19/12/2020 20:05 WIB</string>
     <string name="date_iphone13">Rabu, 24/03/2021 08:05 WIB</string>
+    <string name="editGender">EDIT GENDER</string>
+    <string name="tv_genderEditGender">Gender</string>
 </resources>
