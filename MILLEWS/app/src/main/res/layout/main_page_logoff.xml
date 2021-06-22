@@ -275,7 +275,7 @@
 
                     <HorizontalScrollView
                         android:id="@+id/horizontalScrollView2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="215dp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp">
@@ -373,7 +373,7 @@
                             android:id="@+id/tv_beritaLainnya"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
+                            android:layout_marginLeft="20dp"
                             android:text="@string/berita_lainnya"
                             android:textAllCaps="true"
                             android:textColor="#000000"
@@ -384,6 +384,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
                             android:orientation="vertical">
 
                             <LinearLayout
@@ -397,13 +398,12 @@
                                     android:id="@+id/iv_ikancoelacanth"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
-                                    android:layout_marginLeft="10dp"
                                     app:srcCompat="@drawable/ikan_coelacanth" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="89dp"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="15dp"
                                     android:orientation="vertical">
 
                                     <TextView
@@ -441,13 +441,12 @@
                                     android:id="@+id/iv_berita_JermanPortugal"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
-                                    android:layout_marginLeft="10dp"
                                     app:srcCompat="@drawable/jerman_portugal" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="15dp"
                                     android:orientation="vertical">
 
                                     <TextView
@@ -486,13 +485,12 @@
                                     android:id="@+id/iv_berita_wismaAtlet"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
-                                    android:layout_marginLeft="10dp"
                                     app:srcCompat="@drawable/wisma_atlet" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="15dp"
                                     android:orientation="vertical">
 
                                     <TextView
@@ -531,13 +529,12 @@
                                     android:id="@+id/iv_beritaRossi"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
-                                    android:layout_marginLeft="10dp"
                                     app:srcCompat="@drawable/rossi_" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="15dp"
                                     android:orientation="vertical">
 
                                     <TextView
@@ -575,13 +572,12 @@
                                     android:id="@+id/iv_bookmark_content_1"
                                     android:layout_width="132dp"
                                     android:layout_height="85dp"
-                                    android:layout_marginLeft="10dp"
                                     app:srcCompat="@drawable/bookmark1" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="95dp"
-                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginLeft="15dp"
                                     android:orientation="vertical">
 
                                     <TextView
