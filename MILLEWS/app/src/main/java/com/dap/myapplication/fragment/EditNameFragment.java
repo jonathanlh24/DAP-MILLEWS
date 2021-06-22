@@ -13,24 +13,28 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.dap.myapplication.MainActivity;
 import com.dap.myapplication.R;
+import com.dap.myapplication.databinding.EditEmailBinding;
+import com.dap.myapplication.databinding.EditGenderBinding;
+import com.dap.myapplication.databinding.EditNameBinding;
+import com.dap.myapplication.databinding.EditProfileBinding;
 import com.dap.myapplication.databinding.MyprofileBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class ProfileFragment extends Fragment {
+public class EditNameFragment extends Fragment {
 
-    private static ProfileFragment profileFragment;
-    private MyprofileBinding binding;
+    private static EditNameFragment editNameFragment;
+    private EditNameBinding binding;
     private FirebaseAuth mAuth;
 
-    private ProfileFragment(){
+    private EditNameFragment(){
 
     }
 
-    public static ProfileFragment newInstance(){
-        if (profileFragment == null){
-            profileFragment = new ProfileFragment();
+    public static EditNameFragment newInstance(){
+        if (editNameFragment == null){
+            editNameFragment = new EditNameFragment();
         }
-        return profileFragment;
+        return editNameFragment;
     }
 
     @Override
@@ -43,20 +47,14 @@ public class ProfileFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = MyprofileBinding.inflate(inflater,container, false);
-        binding.LogOut.setOnClickListener(view ->{
-            mAuth.signOut();
-            Intent intent = new Intent(getActivity(), MainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-        });
-        binding.btnEditProfile.setOnClickListener(view -> {
+        binding = EditNameBinding.inflate(inflater,container, false);
+        binding.btnSubmit.setOnClickListener(view ->{
             Bundle bundle = new Bundle();
-            EditProfileFragment editProfileFragment = EditProfileFragment.newInstance();
-            editProfileFragment.setArguments(bundle);
+            ProfileFragment profileFragment = ProfileFragment.newInstance();
+            profileFragment.setArguments(bundle);
 
             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.container, editProfileFragment);
+            transaction.replace(R.id.container, profileFragment);
             transaction.addToBackStack(null);
             transaction.commit();
         });
